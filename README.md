@@ -1,16 +1,19 @@
-## Hi there 👋
+# Roberto Gogoni's GitHub Profile
 
-<!--
-**robertogogoni/robertogogoni** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<!-- Header Section -->
+[Header](header.md)
 
-Here are some ideas to get you started:
+<!-- Skills and Tools Section -->
+[Skills and Tools](skills.md)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!-- Key Achievements Section -->
+[Key Achievements](achievements.md)
+
+<!-- Featured Projects Section -->
+[Featured Projects](projects.md)
+
+<!-- Continuous Learning Section -->
+[Continuous Learning](learning.md)
+
+<!-- Connect Section -->
+[Let's Connect](connect.md)
