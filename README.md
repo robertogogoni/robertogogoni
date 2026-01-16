@@ -1,19 +1,32 @@
-# Roberto Gogoni's GitHub Profile
+# Hi, I'm Roberto
 
-<!-- Header Section -->
-[Header](header.md)
+I build tools that solve real problems.
 
-<!-- Skills and Tools Section -->
-[Skills and Tools](skills.md)
+---
 
-<!-- Key Achievements Section -->
-[Key Achievements](achievements.md)
+## Featured Project
 
-<!-- Featured Projects Section -->
-[Featured Projects](projects.md)
+### [update-beeper](https://github.com/robertogogoni/update-beeper)
 
-<!-- Continuous Learning Section -->
-[Continuous Learning](learning.md)
+A self-healing Beeper Desktop updater for Arch Linux.
 
-<!-- Connect Section -->
-[Let's Connect](connect.md)
+```
+  Self-healing updates     Automatic rollback     Always latest
+         |                       |                      |
+    Retries with            Restores previous      Bypass AUR
+    targeted fixes          version on failure     delays
+```
+
+**Why it exists:** Beeper's built-in updater doesn't work on Arch Linux—updates download but can't overwrite pacman-managed files. The AUR package is always days behind. This script downloads directly from Beeper's API with automatic recovery and rollback.
+
+[![Lint](https://github.com/robertogogoni/update-beeper/actions/workflows/lint.yml/badge.svg)](https://github.com/robertogogoni/update-beeper/actions/workflows/lint.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+```bash
+# Quick install
+curl -fsSL https://raw.githubusercontent.com/robertogogoni/update-beeper/main/install.sh | bash
+```
+
+---
+
+<sub>Building practical solutions for everyday problems</sub>
