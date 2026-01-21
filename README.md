@@ -55,6 +55,16 @@ curl -fsSL https://raw.githubusercontent.com/robertogogoni/update-beeper/main/in
 
 ---
 
+## Notes & Documentation
+
+Personal troubleshooting guides and learnings.
+
+| Topic | Description |
+|-------|-------------|
+| [Claude in Chrome Troubleshooting](notes/claude-code/chrome-extension-troubleshooting.md) | Fixes for extension detection issues, native messaging setup, and [bug #19911](https://github.com/anthropics/claude-code/issues/19911) |
+
+---
+
 <p align="center">
   <sub>Building practical solutions for everyday problems</sub>
 </p>
