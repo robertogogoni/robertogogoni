@@ -29,7 +29,7 @@ Scrum Master who codes on the side. If something's broken or tedious, I'll proba
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=robertogogoni&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="165"/>
+  <img src="https://github-readme-streak-stats-eight.vercel.app?user=robertogogoni&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="165"/>
 </p>
 
 <p align="center">
