@@ -28,6 +28,14 @@ Scrum Master who codes on the side. If something's broken or tedious, I'll proba
   <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/top-langs/?username=robertogogoni&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165"/>
 </p>
 
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=robertogogoni&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="165"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph-sage.vercel.app/graph?username=robertogogoni&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph"/>
+</p>
+
 ---
 
 ## Featured Project
