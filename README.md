@@ -12,7 +12,9 @@ Scrum Master who codes on the side. If something's broken or tedious, I'll proba
 ## Tech Stack
 
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
@@ -38,7 +40,20 @@ Scrum Master who codes on the side. If something's broken or tedious, I'll proba
 
 ---
 
-## Featured Project
+## Featured Projects
+
+### [claude-cross-machine-sync](https://github.com/robertogogoni/claude-cross-machine-sync)
+
+AI-powered configuration sync across Windows & Linux machines with Claude Code.
+
+```
+  Auto-Categorization        Background Sync         One-Command Setup
+         |                        |                        |
+  Machine-specific vs       FileSystemWatcher +      Bootstrap detects
+  Platform vs Universal     inotifywait daemons      hardware & registers
+```
+
+**What it does:** Automatically categorizes config changes (machine-specific, platform-specific, or universal), syncs via git with intelligent commit tags, and maintains a searchable AI memory across all my machines.
 
 ### [update-beeper](https://github.com/robertogogoni/update-beeper)
 
