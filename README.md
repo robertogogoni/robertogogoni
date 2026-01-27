@@ -30,34 +30,43 @@ Scrum Master who codes on the side. If something's broken or tedious, I'll proba
 **Claude's Cognitive Layer** — A dual-model memory system with auto-extraction, auto-recall, MCP tools for deep reasoning, and compounding learnings.
 
 ```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                        Claude Code Session                               │
-├─────────────────────────────────────────────────────────────────────────┤
-│                           Cortex MCP Server                              │
-│  ┌─────────────────────────────┐    ┌─────────────────────────────────┐ │
-│  │     Haiku Worker            │    │      Sonnet Thinker             │ │
-│  │     (Fast, Cheap)           │    │      (Deep Reasoning)           │ │
-│  │  • cortex__query            │    │  • cortex__reflect              │ │
-│  │  • cortex__recall           │    │  • cortex__infer                │ │
-│  │     ~$0.25/1M tokens        │    │  • cortex__learn                │ │
-│  │                             │    │  • cortex__consolidate          │ │
-│  │                             │    │     ~$3/1M tokens               │ │
-│  └─────────────────────────────┘    └─────────────────────────────────┘ │
-├─────────────────────────────────────────────────────────────────────────┤
-│  SessionStart Hook          │         SessionEnd Hook                    │
-│  ┌─────────────────────┐    │    ┌─────────────────────┐                │
-│  │ Context Analyzer    │    │    │ Extraction Engine   │                │
-│  │ Query Orchestrator  │    │    │ Pattern Tracker     │                │
-│  │ Memory Injection    │    │    │ Outcome Scorer      │                │
-│  └─────────────────────┘    │    └─────────────────────┘                │
-├─────────────────────────────────────────────────────────────────────────┤
-│                     LADS Self-Improvement Layer                          │
-│          Learnable · Adaptive · Documenting · Self-improving             │
-└─────────────────────────────────────────────────────────────────────────┘
+                    ╭──────────────────────────────╮
+                    │      Claude Code Session     │
+                    ╰──────────────┬───────────────╯
+                                   │
+            ╭──────────────────────┴──────────────────────╮
+            │              CORTEX MCP SERVER              │
+            ├─────────────────────────────────────────────┤
+            │                                             │
+            │  ┌───────────────┐     ┌───────────────┐   │
+            │  │ HAIKU WORKER  │     │SONNET THINKER │   │
+            │  │  ◇ query      │     │  ◆ reflect    │   │
+            │  │  ◇ recall     │     │  ◆ infer      │   │
+            │  │               │     │  ◆ learn      │   │
+            │  │ ~$0.25/1M tok │     │  ◆ consolidate│   │
+            │  │   [fast]      │     │ ~$3/1M tokens │   │
+            │  └───────┬───────┘     └───────┬───────┘   │
+            │          │                     │           │
+            ╰──────────┼─────────────────────┼───────────╯
+                       │                     │
+         ╭─────────────┴───────╮   ╭─────────┴─────────╮
+         │   SESSION START     │   │    SESSION END    │
+         │  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄  │   │  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄  │
+         │  • Context Analyzer │   │  • Extraction     │
+         │  • Query Orchestr.  │   │  • Pattern Track  │
+         │  • Memory Injection │   │  • Outcome Score  │
+         ╰─────────────────────╯   ╰───────────────────╯
+                       │                     │
+                       ╰──────────┬──────────╯
+                                  ▼
+            ╭─────────────────────────────────────────────╮
+            │           LADS SELF-IMPROVEMENT             │
+            │   Learnable · Adaptive · Documenting · SI   │
+            ╰─────────────────────────────────────────────╯
 ```
 
 | Problem | Cortex Solution |
-|---------|-----------------| 
+|---------|-----------------|
 | Claude forgets context | **Auto-recall**: Injects relevant memories at session start |
 | Learnings are lost | **Auto-extraction**: Captures insights from every session |
 | No deep reasoning tools | **MCP Server**: 6 tools for query, recall, reflect, infer, learn, consolidate |
