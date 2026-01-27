@@ -25,40 +25,54 @@ Scrum Master who codes on the side. If something's broken or tedious, I'll proba
 
 ## Featured Project
 
-### [Claude Memory Orchestrator](https://github.com/robertogogoni/claude-memory-orchestrator) 🧠
+### [Cortex](https://github.com/robertogogoni/cortex-claude) 🧠
 
-**A 100% persistent memory system for Claude Code** — true cross-session memory through auto-extraction, auto-recall, and self-improving intelligence.
+**Claude's Cognitive Layer** — A dual-model memory system with auto-extraction, auto-recall, MCP tools for deep reasoning, and compounding learnings.
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    Claude Code Session                       │
-├─────────────────────────────────────────────────────────────┤
-│  SessionStart Hook          │         SessionEnd Hook        │
-│  ┌─────────────────────┐    │    ┌─────────────────────┐    │
-│  │ Context Analyzer    │────┼────│ Extraction Engine   │    │
-│  │ Query Orchestrator  │    │    │ Pattern Tracker     │    │
-│  │ Memory Injection    │    │    │ Outcome Scorer      │    │
-│  └─────────────────────┘    │    └─────────────────────┘    │
-├─────────────────────────────────────────────────────────────┤
-│                     LADS Self-Improvement                    │
-│       Learnable · Adaptive · Documenting · Self-improving    │
-└─────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────┐
+│                        Claude Code Session                               │
+├─────────────────────────────────────────────────────────────────────────┤
+│                           Cortex MCP Server                              │
+│  ┌─────────────────────────────┐    ┌─────────────────────────────────┐ │
+│  │     Haiku Worker            │    │      Sonnet Thinker             │ │
+│  │     (Fast, Cheap)           │    │      (Deep Reasoning)           │ │
+│  │  • cortex__query            │    │  • cortex__reflect              │ │
+│  │  • cortex__recall           │    │  • cortex__infer                │ │
+│  │     ~$0.25/1M tokens        │    │  • cortex__learn                │ │
+│  │                             │    │  • cortex__consolidate          │ │
+│  │                             │    │     ~$3/1M tokens               │ │
+│  └─────────────────────────────┘    └─────────────────────────────────┘ │
+├─────────────────────────────────────────────────────────────────────────┤
+│  SessionStart Hook          │         SessionEnd Hook                    │
+│  ┌─────────────────────┐    │    ┌─────────────────────┐                │
+│  │ Context Analyzer    │    │    │ Extraction Engine   │                │
+│  │ Query Orchestrator  │    │    │ Pattern Tracker     │                │
+│  │ Memory Injection    │    │    │ Outcome Scorer      │                │
+│  └─────────────────────┘    │    └─────────────────────┘                │
+├─────────────────────────────────────────────────────────────────────────┤
+│                     LADS Self-Improvement Layer                          │
+│          Learnable · Adaptive · Documenting · Self-improving             │
+└─────────────────────────────────────────────────────────────────────────┘
 ```
 
-| Problem | CMO Solution |
-|---------|--------------|
-| Claude forgets context | **Auto-recall** at session start |
-| Learnings are lost | **Auto-extraction** from every session |
-| No learning from mistakes | **LADS principles** — gets smarter over time |
-| Manual memory management | **Fully automatic** — zero intervention |
+| Problem | Cortex Solution |
+|---------|-----------------| 
+| Claude forgets context | **Auto-recall**: Injects relevant memories at session start |
+| Learnings are lost | **Auto-extraction**: Captures insights from every session |
+| No deep reasoning tools | **MCP Server**: 6 tools for query, recall, reflect, infer, learn, consolidate |
+| Expensive API calls | **Dual-model**: Haiku for fast ops, Sonnet for deep reasoning |
+| Manual memory management | **Fully automatic**: Zero user intervention required |
 
-[![Tests](https://img.shields.io/badge/tests-90%2F90%20passing-brightgreen)](https://github.com/robertogogoni/claude-memory-orchestrator)
-[![Node.js](https://img.shields.io/badge/node-%3E%3D18.0.0-blue)](https://github.com/robertogogoni/claude-memory-orchestrator)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/robertogogoni/claude-memory-orchestrator/blob/main/LICENSE)
+[![Tests](https://img.shields.io/badge/tests-90%2F90%20passing-brightgreen)](https://github.com/robertogogoni/cortex-claude)
+[![Node.js](https://img.shields.io/badge/node-%3E%3D18.0.0-blue)](https://github.com/robertogogoni/cortex-claude)
+[![MCP](https://img.shields.io/badge/MCP-6%20tools-purple)](https://github.com/robertogogoni/cortex-claude)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/robertogogoni/cortex-claude/blob/main/LICENSE)
 
 ```bash
 # One-command install
-curl -fsSL https://raw.githubusercontent.com/robertogogoni/claude-memory-orchestrator/main/install.sh | bash
+git clone https://github.com/robertogogoni/cortex-claude.git ~/.claude/memory
+cd ~/.claude/memory && npm install
 ```
 
 ---
