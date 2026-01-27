@@ -73,6 +73,19 @@ Scrum Master who codes on the side. If something's broken or tedious, I'll proba
 | Expensive API calls | **Dual-model**: Haiku for fast ops, Sonnet for deep reasoning |
 | Manual memory management | **Fully automatic**: Zero user intervention required |
 
+**NEW: `/cortex` Skill** — User-friendly slash commands:
+
+```bash
+/cortex              # Status overview
+/cortex help         # All commands with examples
+/cortex query "X"    # Search memories (~$0.001)
+/cortex learn "X"    # Store insight (~$0.01)
+/cortex reflect "X"  # Deep analysis (~$0.01)
+/cortex stats        # Memory counts & API costs
+/cortex health       # System health check
+/cortex export       # Export memories (json/md)
+```
+
 [![Tests](https://img.shields.io/badge/tests-90%2F90%20passing-brightgreen)](https://github.com/robertogogoni/cortex-claude)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D18.0.0-blue)](https://github.com/robertogogoni/cortex-claude)
 [![MCP](https://img.shields.io/badge/MCP-6%20tools-purple)](https://github.com/robertogogoni/cortex-claude)
@@ -103,11 +116,11 @@ A self-healing Beeper Desktop updater for Arch Linux. Downloads directly from Be
 
 ## GitHub Stats
 
-<!-- STATS_UPDATED: 2026-01-27T18:41:20Z -->
+<!-- STATS_UPDATED: 2026-01-27T19:25:00Z -->
 
 <p align="center">
-  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api?username=robertogogoni&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=1800" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/top-langs/?username=robertogogoni&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" alt="Top Languages" height="165"/>
+  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api?username=robertogogoni&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&v=20260127" alt="GitHub Stats" height="165"/>
+  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/top-langs/?username=robertogogoni&layout=compact&theme=tokyonight&hide_border=true&v=20260127" alt="Top Languages" height="165"/>
 </p>
 
 <p align="center">
