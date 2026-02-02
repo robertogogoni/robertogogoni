@@ -2,7 +2,7 @@
 
 Scrum Master who codes on the side. If something's broken or tedious, I'll probably write a script for it.
 
-📍 São Paulo, Brazil
+Sao Paulo, Brazil
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/robertogogoni)
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/ragogoni)
@@ -26,50 +26,52 @@ Scrum Master who codes on the side. If something's broken or tedious, I'll proba
 
 ## Featured Project
 
-### [Cortex](https://github.com/robertogogoni/cortex-claude) 🧠
+### [Cortex](https://github.com/robertogogoni/cortex-claude)
 
-**Claude's Cognitive Layer** — A dual-model memory system with auto-extraction, auto-recall, MCP tools for deep reasoning, and compounding learnings.
+**Claude's Cognitive Layer** - A dual-model memory system with auto-extraction, auto-recall, vector search, MCP tools for deep reasoning, and compounding learnings.
 
 ```
-                    ╭──────────────────────────────╮
-                    │      Claude Code Session     │
-                    ╰──────────────┬───────────────╯
-                                   │
-            ╭──────────────────────┴──────────────────────╮
-            │              CORTEX MCP SERVER              │
-            ├─────────────────────────────────────────────┤
-            │                                             │
-            │  ┌───────────────┐     ┌───────────────┐   │
-            │  │ HAIKU WORKER  │     │SONNET THINKER │   │
-            │  │  ◇ query      │     │  ◆ reflect    │   │
-            │  │  ◇ recall     │     │  ◆ infer      │   │
-            │  │               │     │  ◆ learn      │   │
-            │  │ ~$0.25/1M tok │     │  ◆ consolidate│   │
-            │  │   [fast]      │     │ ~$3/1M tokens │   │
-            │  └───────┬───────┘     └───────┬───────┘   │
-            │          │                     │           │
-            │  ┌───────┴─────────────────────┴───────┐   │
-            │  │         VECTOR SEARCH ENGINE        │   │
-            │  │  HNSW Index + BM25 + RRF Fusion    │   │
-            │  │  Local Embeddings (all-MiniLM-L6)  │   │
-            │  └─────────────────────────────────────┘   │
-            │                                             │
-            ╰──────────────────────────────────────────────╯
-                       │                     │
-         ╭─────────────┴───────╮   ╭─────────┴─────────╮
-         │   SESSION START     │   │    SESSION END    │
-         │  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄  │   │  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄  │
-         │  • Context Analyzer │   │  • Extraction     │
-         │  • Query Orchestr.  │   │  • Pattern Track  │
-         │  • Memory Injection │   │  • Outcome Score  │
-         ╰─────────────────────╯   ╰───────────────────╯
-                       │                     │
-                       ╰──────────┬──────────╯
-                                  ▼
-            ╭─────────────────────────────────────────────╮
-            │           LADS SELF-IMPROVEMENT             │
-            │   Learnable · Adaptive · Documenting · SI   │
-            ╰─────────────────────────────────────────────╯
+                         +---------------------------+
+                         |    Claude Code Session    |
+                         +-------------+-------------+
+                                       |
+            +==========================|==========================+
+            |                   CORTEX MCP SERVER                 |
+            +=====================================================+
+            |                                                     |
+            |   +------------------+     +-------------------+    |
+            |   |   HAIKU WORKER   |     |  SONNET THINKER   |    |
+            |   |                  |     |                   |    |
+            |   |  o query         |     |  * reflect        |    |
+            |   |  o recall        |     |  * infer          |    |
+            |   |                  |     |  * learn          |    |
+            |   |  ~$0.25/1M [fast]|     |  * consolidate    |    |
+            |   +--------+---------+     |  ~$3/1M tokens    |    |
+            |            |               +--------+----------+    |
+            |            +--------+------+--------+               |
+            |                     |                               |
+            |   +-----------------v-----------------------+       |
+            |   |        VECTOR SEARCH ENGINE             |       |
+            |   |   HNSW Index + BM25 + RRF Fusion        |       |
+            |   |   Local Embeddings (all-MiniLM-L6)      |       |
+            |   +-----------------------------------------+       |
+            |                                                     |
+            +=====================================================+
+                          |                       |
+            +-------------+----------+  +---------+-------------+
+            |     SESSION START      |  |      SESSION END      |
+            |------------------------|  |-----------------------|
+            |  - Context Analyzer    |  |  - Extraction Engine  |
+            |  - Query Orchestrator  |  |  - Pattern Tracker    |
+            |  - Memory Injection    |  |  - Outcome Scorer     |
+            +------------------------+  +-----------------------+
+                          |                       |
+                          +-----------+-----------+
+                                      |
+            +-------------------------v-------------------------+
+            |               LADS SELF-IMPROVEMENT               |
+            |     Learnable | Adaptive | Documenting | Self-I   |
+            +---------------------------------------------------+
 ```
 
 | Problem | Cortex Solution |
@@ -81,7 +83,7 @@ Scrum Master who codes on the side. If something's broken or tedious, I'll proba
 | Expensive API calls | **Dual-model**: Haiku for fast ops, Sonnet for deep reasoning |
 | Manual memory management | **Fully automatic**: Zero user intervention required |
 
-**NEW: `/cortex` Skill** — User-friendly slash commands:
+**NEW: `/cortex` Skill** - User-friendly slash commands:
 
 ```bash
 /cortex              # Status overview
@@ -94,7 +96,7 @@ Scrum Master who codes on the side. If something's broken or tedious, I'll proba
 /cortex export       # Export memories (json/md)
 ```
 
-[![Tests](https://img.shields.io/badge/tests-189%2F189%20passing-brightgreen)](https://github.com/robertogogoni/cortex-claude)
+[![Tests](https://img.shields.io/badge/tests-142%2F142%20passing-brightgreen)](https://github.com/robertogogoni/cortex-claude)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D18.0.0-blue)](https://github.com/robertogogoni/cortex-claude)
 [![MCP](https://img.shields.io/badge/MCP-6%20tools-purple)](https://github.com/robertogogoni/cortex-claude)
 [![Vector Search](https://img.shields.io/badge/vector-HNSW%20%2B%20BM25-orange)](https://github.com/robertogogoni/cortex-claude)
@@ -125,7 +127,7 @@ A self-healing Beeper Desktop updater for Arch Linux. Downloads directly from Be
 
 ## GitHub Stats
 
-<!-- STATS_UPDATED: 2026-02-02T07:05:53Z -->
+<!-- STATS_UPDATED: 2026-02-02T07:12:00Z -->
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=robertogogoni&style=for-the-badge&color=1a1b27&label=PROFILE+VIEWS" alt="Profile Views"/>
