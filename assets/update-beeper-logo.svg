@@ -1,0 +1,10 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circular refresh arrows -->
+  <path d="M32 12 A20 20 0 1 1 12 32" fill="none" stroke="#7aa2f7" stroke-width="4" stroke-linecap="round"/>
+  <path d="M32 52 A20 20 0 1 1 52 32" fill="none" stroke="#bb9af7" stroke-width="4" stroke-linecap="round"/>
+  <!-- Arrow heads -->
+  <polygon points="32,6 38,14 26,14" fill="#7aa2f7"/>
+  <polygon points="32,58 26,50 38,50" fill="#bb9af7"/>
+  <!-- Center dot -->
+  <circle cx="32" cy="32" r="4" fill="#70A5FD"/>
+</svg>

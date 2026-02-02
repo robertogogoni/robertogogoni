@@ -1,0 +1,14 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left device (laptop) -->
+  <rect x="6" y="22" width="18" height="14" rx="2" fill="#7aa2f7"/>
+  <rect x="4" y="36" width="22" height="3" rx="1" fill="#7aa2f7"/>
+  <!-- Right device (desktop) -->
+  <rect x="40" y="20" width="18" height="16" rx="2" fill="#bb9af7"/>
+  <rect x="46" y="36" width="6" height="6" fill="#bb9af7"/>
+  <rect x="42" y="42" width="14" height="2" rx="1" fill="#bb9af7"/>
+  <!-- Sync arrows -->
+  <path d="M28 26 L36 26" stroke="#70A5FD" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="35,23 39,26 35,29" fill="#70A5FD"/>
+  <path d="M36 34 L28 34" stroke="#70A5FD" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="29,31 25,34 29,37" fill="#70A5FD"/>
+</svg>

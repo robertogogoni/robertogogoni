@@ -21,7 +21,7 @@ Scrum Master who codes on the side. If something's broken or tedious, I'll proba
 <tr>
 <td width="50%">
 
-### [Cortex](https://github.com/robertogogoni/cortex-claude)
+### <img src="assets/cortex-logo.svg" height="32" align="center"/> [Cortex](https://github.com/robertogogoni/cortex-claude)
 
 **Claude's Cognitive Layer** - Dual-model memory system with auto-extraction, vector search, and MCP tools for deep reasoning.
 
@@ -32,11 +32,33 @@ Scrum Master who codes on the side. If something's broken or tedious, I'll proba
 </td>
 <td width="50%">
 
-### [awesome-beeper](https://github.com/robertogogoni/awesome-beeper)
+### <img src="assets/claude-sync-logo.svg" height="32" align="center"/> [claude-cross-machine-sync](https://github.com/robertogogoni/claude-cross-machine-sync)
+
+**Cross-Machine Claude Sync** - Cross-machine sync for Claude Code settings, memory, and configurations with auto-categorization and background daemons.
+
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-blue)](https://github.com/robertogogoni/claude-cross-machine-sync)
+[![Sync](https://img.shields.io/badge/sync-auto--daemon-green)](https://github.com/robertogogoni/claude-cross-machine-sync)
+
+</td>
+</tr>
+</table>
+
+---
+
+## Other Projects
+
+<table>
+<tr>
+<td width="50%">
+
+### <img src="assets/awesome-beeper-logo.svg" height="32" align="center"/> [awesome-beeper](https://github.com/robertogogoni/awesome-beeper)
 
 Curated list of Beeper resources, tools, and community projects.
 
-### [update-beeper](https://github.com/beeper-community/update-beeper)
+</td>
+<td width="50%">
+
+### <img src="assets/update-beeper-logo.svg" height="32" align="center"/> [update-beeper](https://github.com/beeper-community/update-beeper)
 
 Self-healing Beeper Desktop updater for Arch Linux.
 
