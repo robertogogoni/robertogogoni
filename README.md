@@ -101,6 +101,7 @@ Sao Paulo, Brazil
 [![MCP](https://img.shields.io/badge/MCP-6%20tools-purple)](https://github.com/robertogogoni/cortex-claude)
 [![Vector Search](https://img.shields.io/badge/vector-HNSW%20%2B%20BM25-orange)](https://github.com/robertogogoni/cortex-claude)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/robertogogoni/cortex-claude/blob/main/LICENSE)
+[![Roadmap](https://img.shields.io/badge/roadmap-view-blueviolet)](https://github.com/robertogogoni/cortex-claude/blob/master/ROADMAP.md)
 
 ```bash
 # One-command install
