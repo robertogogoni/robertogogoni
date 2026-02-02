@@ -13,6 +13,7 @@ Scrum Master who codes on the side. If something's broken or tedious, I'll proba
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
@@ -47,7 +48,13 @@ Scrum Master who codes on the side. If something's broken or tedious, I'll proba
             │  │   [fast]      │     │ ~$3/1M tokens │   │
             │  └───────┬───────┘     └───────┬───────┘   │
             │          │                     │           │
-            ╰──────────┼─────────────────────┼───────────╯
+            │  ┌───────┴─────────────────────┴───────┐   │
+            │  │         VECTOR SEARCH ENGINE        │   │
+            │  │  HNSW Index + BM25 + RRF Fusion    │   │
+            │  │  Local Embeddings (all-MiniLM-L6)  │   │
+            │  └─────────────────────────────────────┘   │
+            │                                             │
+            ╰──────────────────────────────────────────────╯
                        │                     │
          ╭─────────────┴───────╮   ╭─────────┴─────────╮
          │   SESSION START     │   │    SESSION END    │
@@ -69,6 +76,7 @@ Scrum Master who codes on the side. If something's broken or tedious, I'll proba
 |---------|-----------------|
 | Claude forgets context | **Auto-recall**: Injects relevant memories at session start |
 | Learnings are lost | **Auto-extraction**: Captures insights from every session |
+| No semantic search | **Vector Search**: HNSW + BM25 hybrid with RRF fusion |
 | No deep reasoning tools | **MCP Server**: 6 tools for query, recall, reflect, infer, learn, consolidate |
 | Expensive API calls | **Dual-model**: Haiku for fast ops, Sonnet for deep reasoning |
 | Manual memory management | **Fully automatic**: Zero user intervention required |
@@ -86,9 +94,10 @@ Scrum Master who codes on the side. If something's broken or tedious, I'll proba
 /cortex export       # Export memories (json/md)
 ```
 
-[![Tests](https://img.shields.io/badge/tests-90%2F90%20passing-brightgreen)](https://github.com/robertogogoni/cortex-claude)
+[![Tests](https://img.shields.io/badge/tests-189%2F189%20passing-brightgreen)](https://github.com/robertogogoni/cortex-claude)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D18.0.0-blue)](https://github.com/robertogogoni/cortex-claude)
 [![MCP](https://img.shields.io/badge/MCP-6%20tools-purple)](https://github.com/robertogogoni/cortex-claude)
+[![Vector Search](https://img.shields.io/badge/vector-HNSW%20%2B%20BM25-orange)](https://github.com/robertogogoni/cortex-claude)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/robertogogoni/cortex-claude/blob/main/LICENSE)
 
 ```bash
@@ -116,11 +125,11 @@ A self-healing Beeper Desktop updater for Arch Linux. Downloads directly from Be
 
 ## GitHub Stats
 
-<!-- STATS_UPDATED: 2026-02-01T18:37:23Z -->
+<!-- STATS_UPDATED: 2026-02-01T23:45:00Z -->
 
 <p align="center">
-  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api?username=robertogogoni&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&v=20260127" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/top-langs/?username=robertogogoni&layout=compact&theme=tokyonight&hide_border=true&v=20260127" alt="Top Languages" height="165"/>
+  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api?username=robertogogoni&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&v=20260201" alt="GitHub Stats" height="165"/>
+  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/top-langs/?username=robertogogoni&layout=compact&theme=tokyonight&hide_border=true&v=20260201" alt="Top Languages" height="165"/>
 </p>
 
 <p align="center">
