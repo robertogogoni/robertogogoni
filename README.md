@@ -118,15 +118,15 @@ cd ~/.claude/memory && npm install
 ## Other Projects
 
 <p align="center">
-  <a href="https://github.com/robertogogoni/claude-cross-machine-sync">
-    <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/pin/?username=robertogogoni&repo=claude-cross-machine-sync&theme=tokyonight&hide_border=true" alt="claude-cross-machine-sync"/>
+  <a href="https://github.com/robertogogoni/awesome-beeper">
+    <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/pin/?username=robertogogoni&repo=awesome-beeper&theme=tokyonight&hide_border=true" alt="awesome-beeper"/>
   </a>
   <a href="https://github.com/beeper-community/update-beeper">
     <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/pin/?username=beeper-community&repo=update-beeper&theme=tokyonight&hide_border=true" alt="update-beeper"/>
   </a>
 </p>
 
-**[claude-cross-machine-sync](https://github.com/robertogogoni/claude-cross-machine-sync)** - AI-powered config sync across Windows & Linux with intelligent auto-categorization and searchable AI memory.
+**[awesome-beeper](https://github.com/robertogogoni/awesome-beeper)** - Curated list of awesome Beeper resources, tools, and community projects.
 
 **[update-beeper](https://github.com/beeper-community/update-beeper)** - Self-healing Beeper Desktop updater for Arch Linux with automatic recovery and rollback.
 
