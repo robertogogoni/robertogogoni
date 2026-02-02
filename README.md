@@ -125,11 +125,11 @@ A self-healing Beeper Desktop updater for Arch Linux. Downloads directly from Be
 
 ## GitHub Stats
 
-<!-- STATS_UPDATED: 2026-02-02T02:10:59Z -->
+<!-- STATS_UPDATED: 2026-02-02T02:15:00Z -->
 
 <p align="center">
-  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api?username=robertogogoni&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&v=20260201" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/top-langs/?username=robertogogoni&layout=compact&theme=tokyonight&hide_border=true&v=20260201" alt="Top Languages" height="165"/>
+  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api?username=robertogogoni&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&v=20260202" alt="GitHub Stats" height="165"/>
+  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/top-langs/?username=robertogogoni&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=Jupyter%20Notebook,HTML,CSS,Batchfile,Makefile&exclude_repo=hosts,adfilt,fuckfuckadblock,Adobe-URL-Block-List,Krakatau,developer-roadmap,awesome-oss-alternatives,awesome-shizuku,XClipper,apkscan,cookbook,Public-Guide&v=20260202" alt="Top Languages" height="165"/>
 </p>
 
 <p align="center">
