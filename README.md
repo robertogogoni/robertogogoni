@@ -125,19 +125,53 @@ A self-healing Beeper Desktop updater for Arch Linux. Downloads directly from Be
 
 ## GitHub Stats
 
-<!-- STATS_UPDATED: 2026-02-02T07:04:31Z -->
+<!-- STATS_UPDATED: 2026-02-02T08:00:00Z -->
 
 <p align="center">
-  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api?username=robertogogoni&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&v=20260202" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/top-langs/?username=robertogogoni&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=Jupyter%20Notebook,HTML,CSS,Batchfile,Makefile&exclude_repo=hosts,adfilt,fuckfuckadblock,Adobe-URL-Block-List,Krakatau,developer-roadmap,awesome-oss-alternatives,awesome-shizuku,XClipper,apkscan,cookbook,Public-Guide&v=20260202" alt="Top Languages" height="165"/>
+  <img src="https://komarev.com/ghpvc/?username=robertogogoni&style=for-the-badge&color=1a1b27&label=PROFILE+VIEWS" alt="Profile Views"/>
+</p>
+
+### Trophies
+
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=robertogogoni&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies"/>
+  </a>
+</p>
+
+### Overview
+
+<p align="center">
+  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api?username=robertogogoni&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&show=reviews,prs_merged,prs_merged_percentage&v=20260202b" alt="GitHub Stats" height="180"/>
+  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/top-langs/?username=robertogogoni&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=Jupyter%20Notebook,HTML,CSS,Batchfile,Makefile&exclude_repo=hosts,adfilt,fuckfuckadblock,Adobe-URL-Block-List,Krakatau,developer-roadmap,awesome-oss-alternatives,awesome-shizuku,XClipper,apkscan,cookbook,Public-Guide&v=20260202b" alt="Top Languages" height="180"/>
+</p>
+
+### Streak
+
+<p align="center">
+  <img src="https://github-readme-streak-stats-eight.vercel.app?user=robertogogoni&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak"/>
+</p>
+
+### Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph-sage.vercel.app/graph?username=robertogogoni&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="Activity Graph"/>
+</p>
+
+### Summary Cards
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=robertogogoni&theme=tokyonight" alt="Profile Details"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats-eight.vercel.app?user=robertogogoni&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="165"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=robertogogoni&theme=tokyonight" alt="Repos per Language" height="180"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=robertogogoni&theme=tokyonight" alt="Most Commit Language" height="180"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph-sage.vercel.app/graph?username=robertogogoni&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=robertogogoni&theme=tokyonight" alt="Stats Card" height="180"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=robertogogoni&theme=tokyonight&utcOffset=-3" alt="Productive Time" height="180"/>
 </p>
 
 ---
