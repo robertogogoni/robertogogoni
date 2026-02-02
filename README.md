@@ -117,15 +117,20 @@ cd ~/.claude/memory && npm install
 
 ## Other Projects
 
-### [claude-cross-machine-sync](https://github.com/robertogogoni/claude-cross-machine-sync)
+<p align="center">
+  <a href="https://github.com/robertogogoni/claude-cross-machine-sync">
+    <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/pin/?username=robertogogoni&repo=claude-cross-machine-sync&theme=tokyonight&hide_border=true" alt="claude-cross-machine-sync"/>
+  </a>
+  <a href="https://github.com/beeper-community/update-beeper">
+    <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/pin/?username=beeper-community&repo=update-beeper&theme=tokyonight&hide_border=true" alt="update-beeper"/>
+  </a>
+</p>
 
-AI-powered configuration sync across Windows & Linux machines with Claude Code. Auto-categorizes config changes (machine-specific vs platform vs universal), syncs via git with intelligent commit tags, and maintains searchable AI memory across all machines.
+**[claude-cross-machine-sync](https://github.com/robertogogoni/claude-cross-machine-sync)** - AI-powered config sync across Windows & Linux with intelligent auto-categorization and searchable AI memory.
 
-### [update-beeper](https://github.com/robertogogoni/update-beeper)
+**[update-beeper](https://github.com/beeper-community/update-beeper)** - Self-healing Beeper Desktop updater for Arch Linux with automatic recovery and rollback.
 
-A self-healing Beeper Desktop updater for Arch Linux. Downloads directly from Beeper's API with automatic recovery and rollback.
-
-[![Lint](https://github.com/robertogogoni/update-beeper/actions/workflows/lint.yml/badge.svg)](https://github.com/robertogogoni/update-beeper/actions/workflows/lint.yml)
+[![Lint](https://github.com/beeper-community/update-beeper/actions/workflows/lint.yml/badge.svg)](https://github.com/beeper-community/update-beeper/actions/workflows/lint.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
