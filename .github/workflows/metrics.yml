@@ -25,10 +25,7 @@ jobs:
           config_timezone: America/Sao_Paulo
           repositories_forks: no
           repositories_skipped: hosts, adfilt, fuckfuckadblock, Adobe-URL-Block-List, Krakatau, developer-roadmap, awesome-oss-alternatives, awesome-shizuku, XClipper, apkscan, cookbook, Public-Guide, awesome-chatgpt-prompts, ubo-filters, filterlists, MoonWalker440, WSTxda, googlefonts-template-project, rafnixg, readme-to-markdown, chathub, datapub, github-star-graph-project, marreta, candle-craft-ux-vision
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_secrets: yes
-          plugin_achievements_threshold: C
+          plugins_errors_fatal: yes
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 30
