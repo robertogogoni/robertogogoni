@@ -137,7 +137,7 @@ cd ~/.claude/memory && npm install
 
 ## GitHub Stats
 
-<!-- STATS_UPDATED: 2026-02-02T07:46:25Z -->
+<!-- STATS_UPDATED: 2026-02-02T08:30:00Z -->
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=robertogogoni&style=for-the-badge&color=1a1b27&label=PROFILE+VIEWS" alt="Profile Views"/>
@@ -154,8 +154,8 @@ cd ~/.claude/memory && npm install
 ### Overview
 
 <p align="center">
-  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api?username=robertogogoni&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&show=reviews,prs_merged,prs_merged_percentage&v=20260202b" alt="GitHub Stats" height="180"/>
-  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/top-langs/?username=robertogogoni&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=Jupyter%20Notebook,HTML,CSS,Batchfile,Makefile&exclude_repo=hosts,adfilt,fuckfuckadblock,Adobe-URL-Block-List,Krakatau,developer-roadmap,awesome-oss-alternatives,awesome-shizuku,XClipper,apkscan,cookbook,Public-Guide&v=20260202b" alt="Top Languages" height="180"/>
+  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api?username=robertogogoni&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&show=reviews,prs_merged,prs_merged_percentage&v=202602020830" alt="GitHub Stats" height="180"/>
+  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/top-langs/?username=robertogogoni&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=Jupyter%20Notebook,HTML,CSS,Batchfile,Makefile&exclude_repo=hosts,adfilt,fuckfuckadblock,Adobe-URL-Block-List,Krakatau,developer-roadmap,awesome-oss-alternatives,awesome-shizuku,XClipper,apkscan,cookbook,Public-Guide&v=202602020830" alt="Top Languages" height="180"/>
 </p>
 
 ### Streak
