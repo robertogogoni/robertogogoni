@@ -1,4 +1,8 @@
-# Hi, I'm Roberto
+<p align="center">
+  <a href="https://github.com/robertogogoni">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&random=false&width=600&lines=Hi%2C+I'm+Roberto+%F0%9F%91%8B;Scrum+Master+who+codes;Building+practical+solutions;Creator+of+Cortex" alt="Typing SVG" />
+  </a>
+</p>
 
 Scrum Master who codes on the side. If something's broken or tedious, I'll probably write a script for it.
 
@@ -160,6 +164,14 @@ A self-healing Beeper Desktop updater for Arch Linux. Downloads directly from Be
 <p align="center">
   <img src="https://github-readme-activity-graph-sage.vercel.app/graph?username=robertogogoni&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="Activity Graph"/>
 </p>
+
+### Contributions
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/robertogogoni/robertogogoni/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/robertogogoni/robertogogoni/output/github-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/robertogogoni/robertogogoni/output/github-snake.svg">
+</picture>
 
 ### Summary Cards
 
