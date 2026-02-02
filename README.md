@@ -119,10 +119,10 @@ cd ~/.claude/memory && npm install
 
 <p align="center">
   <a href="https://github.com/robertogogoni/awesome-beeper">
-    <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/pin/?username=robertogogoni&repo=awesome-beeper&v=202602021300&theme=tokyonight&hide_border=true" alt="awesome-beeper"/>
+    <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/pin/?username=robertogogoni&repo=awesome-beeper&v=202602021038&theme=tokyonight&hide_border=true" alt="awesome-beeper"/>
   </a>
   <a href="https://github.com/beeper-community/update-beeper">
-    <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/pin/?username=beeper-community&repo=update-beeper&v=202602021300&theme=tokyonight&hide_border=true" alt="update-beeper"/>
+    <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/pin/?username=beeper-community&repo=update-beeper&v=202602021038&theme=tokyonight&hide_border=true" alt="update-beeper"/>
   </a>
 </p>
 
@@ -147,27 +147,27 @@ cd ~/.claude/memory && npm install
 
 <p align="center">
   <a href="https://github.com/lucthienphong1120/github-trophies">
-    <img src="https://github-trophies.vercel.app/?username=robertogogoni&v=202602021300&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies"/>
+    <img src="https://github-trophies.vercel.app/?username=robertogogoni&v=202602021038&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies"/>
   </a>
 </p>
 
 ### Overview
 
 <p align="center">
-  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api?username=robertogogoni&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&show=reviews,prs_merged,prs_merged_percentage&v=202602021300" alt="GitHub Stats" height="180"/>
-  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/top-langs/?username=robertogogoni&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=Jupyter%20Notebook,HTML,CSS,Batchfile,Makefile&exclude_repo=hosts,adfilt,fuckfuckadblock,Adobe-URL-Block-List,Krakatau,developer-roadmap,awesome-oss-alternatives,awesome-shizuku,XClipper,apkscan,cookbook,Public-Guide&v=202602021300" alt="Top Languages" height="180"/>
+  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api?username=robertogogoni&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&show=reviews,prs_merged,prs_merged_percentage&v=202602021038" alt="GitHub Stats" height="180"/>
+  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/top-langs/?username=robertogogoni&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=Jupyter%20Notebook,HTML,CSS,Batchfile,Makefile&exclude_repo=hosts,adfilt,fuckfuckadblock,Adobe-URL-Block-List,Krakatau,developer-roadmap,awesome-oss-alternatives,awesome-shizuku,XClipper,apkscan,cookbook,Public-Guide&v=202602021038" alt="Top Languages" height="180"/>
 </p>
 
 ### Streak
 
 <p align="center">
-  <img src="https://github-readme-streak-stats-eight.vercel.app?user=robertogogoni&v=202602021300&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats-eight.vercel.app?user=robertogogoni&v=202602021038&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak"/>
 </p>
 
 ### Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph-sage.vercel.app/graph?username=robertogogoni&v=202602021300&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="Activity Graph"/>
+  <img src="https://github-readme-activity-graph-sage.vercel.app/graph?username=robertogogoni&v=202602021038&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="Activity Graph"/>
 </p>
 
 ### Contributions
