@@ -146,8 +146,8 @@ cd ~/.claude/memory && npm install
 ### Trophies
 
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=robertogogoni&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies"/>
+  <a href="https://github.com/lucthienphong1120/github-trophies">
+    <img src="https://github-trophies.vercel.app/?username=robertogogoni&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies"/>
   </a>
 </p>
 
