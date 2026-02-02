@@ -4,219 +4,105 @@
   </a>
 </p>
 
+<p align="center">
 Scrum Master who codes on the side. If something's broken or tedious, I'll probably write a script for it.
+</p>
 
-Sao Paulo, Brazil
+<p align="center">
+  <a href="https://linkedin.com/in/robertogogoni"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://x.com/ragogoni"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/robertogogoni)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/ragogoni)
+---
+
+## Featured Projects
+
+<table>
+<tr>
+<td width="50%">
+
+### [Cortex](https://github.com/robertogogoni/cortex-claude)
+
+**Claude's Cognitive Layer** - Dual-model memory system with auto-extraction, vector search, and MCP tools for deep reasoning.
+
+[![Tests](https://img.shields.io/badge/tests-142%2F142-brightgreen)](https://github.com/robertogogoni/cortex-claude)
+[![MCP](https://img.shields.io/badge/MCP-6%20tools-purple)](https://github.com/robertogogoni/cortex-claude)
+[![Vector](https://img.shields.io/badge/vector-HNSW%20%2B%20BM25-orange)](https://github.com/robertogogoni/cortex-claude)
+
+</td>
+<td width="50%">
+
+### [awesome-beeper](https://github.com/robertogogoni/awesome-beeper)
+
+Curated list of Beeper resources, tools, and community projects.
+
+### [update-beeper](https://github.com/beeper-community/update-beeper)
+
+Self-healing Beeper Desktop updater for Arch Linux.
+
+[![Lint](https://github.com/beeper-community/update-beeper/actions/workflows/lint.yml/badge.svg)](https://github.com/beeper-community/update-beeper/actions)
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## Tech Stack
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-
----
-
-## Featured Project
-
-### [Cortex](https://github.com/robertogogoni/cortex-claude)
-
-**Claude's Cognitive Layer** - A dual-model memory system with auto-extraction, auto-recall, vector search, MCP tools for deep reasoning, and compounding learnings.
-
-```
-                         +---------------------------+
-                         |    Claude Code Session    |
-                         +-------------+-------------+
-                                       |
-            +==========================|==========================+
-            |                   CORTEX MCP SERVER                 |
-            +=====================================================+
-            |                                                     |
-            |   +------------------+     +-------------------+    |
-            |   |   HAIKU WORKER   |     |  SONNET THINKER   |    |
-            |   |                  |     |                   |    |
-            |   |  o query         |     |  * reflect        |    |
-            |   |  o recall        |     |  * infer          |    |
-            |   |                  |     |  * learn          |    |
-            |   |  ~$0.25/1M [fast]|     |  * consolidate    |    |
-            |   +--------+---------+     |  ~$3/1M tokens    |    |
-            |            |               +--------+----------+    |
-            |            +--------+------+--------+               |
-            |                     |                               |
-            |   +-----------------v-----------------------+       |
-            |   |        VECTOR SEARCH ENGINE             |       |
-            |   |   HNSW Index + BM25 + RRF Fusion        |       |
-            |   |   Local Embeddings (all-MiniLM-L6)      |       |
-            |   +-----------------------------------------+       |
-            |                                                     |
-            +=====================================================+
-                          |                       |
-            +-------------+----------+  +---------+-------------+
-            |     SESSION START      |  |      SESSION END      |
-            |------------------------|  |-----------------------|
-            |  - Context Analyzer    |  |  - Extraction Engine  |
-            |  - Query Orchestrator  |  |  - Pattern Tracker    |
-            |  - Memory Injection    |  |  - Outcome Scorer     |
-            +------------------------+  +-----------------------+
-                          |                       |
-                          +-----------+-----------+
-                                      |
-            +-------------------------v-------------------------+
-            |               LADS SELF-IMPROVEMENT               |
-            |     Learnable | Adaptive | Documenting | Self-I   |
-            +---------------------------------------------------+
-```
-
-| Problem | Cortex Solution |
-|---------|-----------------|
-| Claude forgets context | **Auto-recall**: Injects relevant memories at session start |
-| Learnings are lost | **Auto-extraction**: Captures insights from every session |
-| No semantic search | **Vector Search**: HNSW + BM25 hybrid with RRF fusion |
-| No deep reasoning tools | **MCP Server**: 6 tools for query, recall, reflect, infer, learn, consolidate |
-| Expensive API calls | **Dual-model**: Haiku for fast ops, Sonnet for deep reasoning |
-| Manual memory management | **Fully automatic**: Zero user intervention required |
-
-**NEW: `/cortex` Skill** - User-friendly slash commands:
-
-```bash
-/cortex              # Status overview
-/cortex help         # All commands with examples
-/cortex query "X"    # Search memories (~$0.001)
-/cortex learn "X"    # Store insight (~$0.01)
-/cortex reflect "X"  # Deep analysis (~$0.01)
-/cortex stats        # Memory counts & API costs
-/cortex health       # System health check
-/cortex export       # Export memories (json/md)
-```
-
-[![Tests](https://img.shields.io/badge/tests-142%2F142%20passing-brightgreen)](https://github.com/robertogogoni/cortex-claude)
-[![Node.js](https://img.shields.io/badge/node-%3E%3D18.0.0-blue)](https://github.com/robertogogoni/cortex-claude)
-[![MCP](https://img.shields.io/badge/MCP-6%20tools-purple)](https://github.com/robertogogoni/cortex-claude)
-[![Vector Search](https://img.shields.io/badge/vector-HNSW%20%2B%20BM25-orange)](https://github.com/robertogogoni/cortex-claude)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/robertogogoni/cortex-claude/blob/main/LICENSE)
-[![Roadmap](https://img.shields.io/badge/roadmap-view-blueviolet)](https://github.com/robertogogoni/cortex-claude/blob/master/ROADMAP.md)
-
-```bash
-# One-command install
-git clone https://github.com/robertogogoni/cortex-claude.git ~/.claude/memory
-cd ~/.claude/memory && npm install
-```
-
----
-
-## Other Projects
-
 <p align="center">
-  <a href="https://github.com/robertogogoni/awesome-beeper">
-    <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/pin/?username=robertogogoni&repo=awesome-beeper&v=202602021038&theme=tokyonight&hide_border=true" alt="awesome-beeper"/>
-  </a>
-  <a href="https://github.com/beeper-community/update-beeper">
-    <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/pin/?username=beeper-community&repo=update-beeper&v=202602021038&theme=tokyonight&hide_border=true" alt="update-beeper"/>
-  </a>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash"/>
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell"/>
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
+  <img src="https://img.shields.io/badge/Arch-1793D1?style=flat-square&logo=archlinux&logoColor=white" alt="Arch"/>
 </p>
-
-**[awesome-beeper](https://github.com/robertogogoni/awesome-beeper)** - Curated list of awesome Beeper resources, tools, and community projects.
-
-**[update-beeper](https://github.com/beeper-community/update-beeper)** - Self-healing Beeper Desktop updater for Arch Linux with automatic recovery and rollback.
-
-[![Lint](https://github.com/beeper-community/update-beeper/actions/workflows/lint.yml/badge.svg)](https://github.com/beeper-community/update-beeper/actions/workflows/lint.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
 ## GitHub Stats
 
-<!-- STATS_UPDATED: 2026-02-02T12:32:13Z >
-
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=robertogogoni&style=for-the-badge&color=1a1b27&label=PROFILE+VIEWS" alt="Profile Views"/>
+  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api?username=robertogogoni&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&show=reviews,prs_merged,prs_merged_percentage" alt="GitHub Stats" height="180"/>
+  <img src="https://raw.githubusercontent.com/robertogogoni/robertogogoni/main/metrics-languages.svg" alt="Languages" height="180"/>
 </p>
 
-### Trophies
+<p align="center">
+  <img src="https://github-readme-streak-stats-eight.vercel.app?user=robertogogoni&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak"/>
+</p>
+
+<details>
+<summary><b>More Stats</b></summary>
+
+<br>
 
 <p align="center">
   <a href="https://github.com/lucthienphong1120/github-trophies">
-    <img src="https://github-trophies.vercel.app/?username=robertogogoni&v=202602021038&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies"/>
+    <img src="https://github-trophies.vercel.app/?username=robertogogoni&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies"/>
   </a>
 </p>
-
-### Overview
-
-<p align="center">
-  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api?username=robertogogoni&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&show=reviews,prs_merged,prs_merged_percentage&v=202602021038" alt="GitHub Stats" height="180"/>
-  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api/top-langs/?username=robertogogoni&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=Jupyter%20Notebook,HTML,CSS,Batchfile,Makefile&exclude_repo=hosts,adfilt,fuckfuckadblock,Adobe-URL-Block-List,Krakatau,developer-roadmap,awesome-oss-alternatives,awesome-shizuku,XClipper,apkscan,cookbook,Public-Guide&v=202602021038" alt="Top Languages" height="180"/>
-</p>
-
-### Streak
-
-<p align="center">
-  <img src="https://github-readme-streak-stats-eight.vercel.app?user=robertogogoni&v=202602021038&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak"/>
-</p>
-
-### Activity
-
-<p align="center">
-  <img src="https://github-readme-activity-graph-sage.vercel.app/graph?username=robertogogoni&v=202602021038&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="Activity Graph"/>
-</p>
-
-### Contributions
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/robertogogoni/robertogogoni/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/robertogogoni/robertogogoni/output/github-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/robertogogoni/robertogogoni/output/github-snake.svg">
-</picture>
-
-### Metrics
-
-<!-- Generated by lowlighter/metrics - updates every 12 hours -->
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/robertogogoni/robertogogoni/main/metrics.svg" alt="GitHub Metrics"/>
-</p>
-
-### Isometric Calendar
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/robertogogoni/robertogogoni/main/metrics-isocalendar.svg" alt="Isometric Calendar"/>
 </p>
 
-### Languages & Habits
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/robertogogoni/robertogogoni/main/metrics-languages.svg" alt="Languages" height="300"/>
-  <img src="https://raw.githubusercontent.com/robertogogoni/robertogogoni/main/metrics-habits.svg" alt="Coding Habits" height="300"/>
+  <img src="https://raw.githubusercontent.com/robertogogoni/robertogogoni/main/metrics-habits.svg" alt="Coding Habits" height="250"/>
 </p>
 
-### Recent Activity
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/robertogogoni/robertogogoni/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/robertogogoni/robertogogoni/output/github-snake.svg">
+  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/robertogogoni/robertogogoni/output/github-snake.svg">
+</picture>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/robertogogoni/robertogogoni/main/metrics-activity.svg" alt="Recent Activity"/>
-</p>
-
----
-
-## Notes & Documentation
-
-Personal troubleshooting guides and learnings.
-
-| Topic | Description |
-|-------|-------------|
-| [Claude in Chrome Troubleshooting](notes/claude-code/chrome-extension-troubleshooting.md) | Fixes for extension detection issues, native messaging setup, and [bug #19911](https://github.com/anthropics/claude-code/issues/19911) |
+</details>
 
 ---
 
 <p align="center">
-  <sub>Building practical solutions for everyday problems</sub>
+  <img src="https://komarev.com/ghpvc/?username=robertogogoni&style=flat-square&color=1a1b27&label=views" alt="Profile Views"/>
 </p>
