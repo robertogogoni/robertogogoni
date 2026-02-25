@@ -25,7 +25,7 @@ Scrum Master who codes on the side. If something's broken or tedious, I'll proba
 
 **Claude's Cognitive Layer** - Dual-model memory system with auto-extraction, vector search, and MCP tools for deep reasoning.
 
-[![Tests](https://img.shields.io/badge/tests-142%2F142-brightgreen)](https://github.com/robertogogoni/cortex-claude)
+[![Tests](https://img.shields.io/badge/tests-406%2F406-brightgreen)](https://github.com/robertogogoni/cortex-claude)
 [![MCP](https://img.shields.io/badge/MCP-6%20tools-purple)](https://github.com/robertogogoni/cortex-claude)
 [![Vector](https://img.shields.io/badge/vector-HNSW%20%2B%20BM25-orange)](https://github.com/robertogogoni/cortex-claude)
 
