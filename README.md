@@ -51,9 +51,21 @@ Scrum Master who codes on the side. If something's broken or tedious, I'll proba
 <tr>
 <td width="50%">
 
+### <img src="assets/beeper-intel-logo.svg" height="32" align="center"/> [beeper-intel](https://github.com/robertogogoni/beeper-intel)
+
+Intelligence dashboard for the Beeper ecosystem — 160+ repos tracked, 13k+ messages analyzed, API timelines, documentation gaps, and strategic signals.
+
+[![Sources](https://img.shields.io/badge/sources-4-7aa2f7)](https://github.com/robertogogoni/beeper-intel)
+[![Repos](https://img.shields.io/badge/repos_tracked-160+-9ece6a)](https://github.com/robertogogoni/beeper-intel)
+[![Gaps](https://img.shields.io/badge/doc_gaps-11-e0af68)](https://github.com/robertogogoni/beeper-intel/blob/main/reports/documentation-gaps.md)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/robertogogoni/beeper-intel/blob/main/LICENSE)
+
+</td>
+<td width="50%">
+
 ### <img src="assets/awesome-beeper-logo.svg" height="32" align="center"/> [awesome-beeper](https://github.com/robertogogoni/awesome-beeper)
 
-Curated list of Beeper resources, tools, and community projects. Auto-updated daily with official releases and weekly community digests.
+Curated list of Beeper resources, tools, and community projects. 30+ tools, bridges, themes, and MCP servers catalogued.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Last Commit](https://img.shields.io/github/last-commit/robertogogoni/awesome-beeper)](https://github.com/robertogogoni/awesome-beeper/commits)
@@ -61,6 +73,8 @@ Curated list of Beeper resources, tools, and community projects. Auto-updated da
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/robertogogoni/awesome-beeper/blob/main/LICENSE)
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 ### <img src="assets/update-beeper-logo.svg" height="32" align="center"/> [update-beeper](https://github.com/beeper-community/update-beeper)
@@ -71,6 +85,16 @@ Self-healing Beeper Desktop updater for Arch Linux with SHA256 verification, aut
 [![Beeper Latest](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/beeper-community/update-beeper/master/.github/badges/beeper-version.json)](https://www.beeper.com/changelog/desktop)
 [![Lint](https://github.com/beeper-community/update-beeper/actions/workflows/lint.yml/badge.svg)](https://github.com/beeper-community/update-beeper/actions)
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/beeper-community/update-beeper/blob/master/LICENSE)
+
+</td>
+<td width="50%">
+
+### [wayland-cedilla-fix](https://github.com/robertogogoni/wayland-cedilla-fix)
+
+Fix cedilla (ç) on US International keyboard for Wayland compositors. 3-layer approach: compositor + fcitx5/XCompose + browser IME flags.
+
+[![AUR](https://img.shields.io/aur/version/wayland-cedilla-fix?color=1793D1)](https://aur.archlinux.org/packages/wayland-cedilla-fix)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/robertogogoni/wayland-cedilla-fix/blob/main/LICENSE)
 
 </td>
 </tr>
