@@ -56,8 +56,8 @@ Scrum Master who codes on the side. If something's broken or tedious, I'll proba
 Curated list of Beeper resources, tools, and community projects. Auto-updated daily with official releases and weekly community digests.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Updates](https://github.com/robertogogoni/awesome-beeper/actions/workflows/official-updates.yml/badge.svg)](https://github.com/robertogogoni/awesome-beeper/actions)
 [![Last Commit](https://img.shields.io/github/last-commit/robertogogoni/awesome-beeper)](https://github.com/robertogogoni/awesome-beeper/commits)
+[![Stars](https://img.shields.io/github/stars/robertogogoni/awesome-beeper?style=flat&color=yellow)](https://github.com/robertogogoni/awesome-beeper/stargazers)
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/robertogogoni/awesome-beeper/blob/main/LICENSE)
 
 </td>
