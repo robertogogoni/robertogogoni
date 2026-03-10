@@ -53,7 +53,12 @@ Scrum Master who codes on the side. If something's broken or tedious, I'll proba
 
 ### <img src="assets/awesome-beeper-logo.svg" height="32" align="center"/> [awesome-beeper](https://github.com/robertogogoni/awesome-beeper)
 
-Curated list of Beeper resources, tools, and community projects.
+Curated list of Beeper resources, tools, and community projects. Auto-updated daily with official releases and weekly community digests.
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Updates](https://github.com/robertogogoni/awesome-beeper/actions/workflows/official-updates.yml/badge.svg)](https://github.com/robertogogoni/awesome-beeper/actions)
+[![Last Commit](https://img.shields.io/github/last-commit/robertogogoni/awesome-beeper)](https://github.com/robertogogoni/awesome-beeper/commits)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/robertogogoni/awesome-beeper/blob/main/LICENSE)
 
 </td>
 <td width="50%">
