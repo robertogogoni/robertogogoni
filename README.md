@@ -79,7 +79,7 @@ Curated list of Beeper resources, tools, and community projects. 30+ tools, brid
 
 ### <img src="assets/update-beeper-logo.svg" height="32" align="center"/> [update-beeper](https://github.com/beeper-community/update-beeper)
 
-Self-healing Beeper Desktop updater for Arch Linux with SHA256 verification, automatic rollback, and Wayland desktop integration.
+Self-healing Beeper Desktop updater for Arch Linux with progressive API resolution, SHA256 verification, automatic rollback, and native Wayland integration.
 
 [![Release](https://img.shields.io/github/v/release/beeper-community/update-beeper?label=release&color=blue)](https://github.com/beeper-community/update-beeper/releases/latest)
 [![Beeper Latest](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/beeper-community/update-beeper/master/.github/badges/beeper-version.json)](https://www.beeper.com/changelog/desktop)
