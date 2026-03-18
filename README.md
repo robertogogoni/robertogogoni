@@ -15,52 +15,6 @@ Scrum Master by day, tooling builder by night. I automate what's broken, sync wh
 
 ---
 
-## The Ecosystem
-
-All my machines share one Claude Code brain. Settings, memory, skills, and configs flow through a single Git repo and sync automatically.
-
-```mermaid
-graph LR
-    subgraph Machines
-        D["Dell G15<br/>Windows 11"]
-        M["MacBook Air<br/>Arch + Hyprland"]
-        S["Samsung Laptop<br/>Arch + Hyprland"]
-    end
-
-    subgraph "claude-cross-machine-sync"
-        U["universal/<br/>skills, agents, commands,<br/>memory, MCP servers"]
-        P["platform/<br/>linux / windows"]
-        MR["machines/<br/>per-host configs"]
-    end
-
-    subgraph "Claude Code"
-        CC["Settings + Hooks"]
-        SK["Skills + Agents"]
-        ME["Memory (3-layer merge)"]
-        MC["MCP Servers"]
-    end
-
-    D -- git pull --> U
-    M -- git pull --> U
-    S -- git pull --> U
-    U --> CC
-    U --> SK
-    U --> ME
-    U --> MC
-    P --> CC
-    MR --> ME
-
-    style U fill:#1a1b27,stroke:#70a5fd,color:#c0caf5
-    style P fill:#1a1b27,stroke:#9ece6a,color:#c0caf5
-    style MR fill:#1a1b27,stroke:#e0af68,color:#c0caf5
-    style CC fill:#24283b,stroke:#7aa2f7,color:#c0caf5
-    style SK fill:#24283b,stroke:#7aa2f7,color:#c0caf5
-    style ME fill:#24283b,stroke:#7aa2f7,color:#c0caf5
-    style MC fill:#24283b,stroke:#7aa2f7,color:#c0caf5
-```
-
----
-
 ## Featured Projects
 
 <table>
