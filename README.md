@@ -41,6 +41,20 @@ Scrum Master who codes on the side. If something's broken or tedious, I'll proba
 
 </td>
 </tr>
+<tr>
+<td colspan="2">
+
+### [omarchy-ai-usage](https://github.com/rodrigo-sntg/omarchy-ai-usage)
+
+**Real-time AI usage monitoring for Waybar** — Track Claude, Codex, Gemini & Antigravity rate limits, session tokens, and daily costs directly from your status bar. Features stale cache fallback, ccusage integration, per-model cost breakdown, and an interactive TUI dashboard.
+
+[![AUR](https://img.shields.io/aur/version/omarchy-ai-usage-git?color=1793D1&logo=archlinux&logoColor=white&label=AUR)](https://aur.archlinux.org/packages/omarchy-ai-usage-git)
+[![Tests](https://img.shields.io/badge/tests-70%20passing-brightgreen)](https://github.com/rodrigo-sntg/omarchy-ai-usage)
+[![Providers](https://img.shields.io/badge/providers-4-purple)](https://github.com/rodrigo-sntg/omarchy-ai-usage)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/rodrigo-sntg/omarchy-ai-usage/blob/master/LICENSE)
+
+</td>
+</tr>
 </table>
 
 ---
