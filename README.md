@@ -1,11 +1,11 @@
 <p align="center">
   <a href="https://github.com/robertogogoni">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&random=false&width=600&lines=Hi%2C+I'm+Roberto+%F0%9F%91%8B;Scrum+Master+who+codes;Building+practical+solutions;Creator+of+Cortex" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&random=false&width=600&lines=Hi%2C+I'm+Roberto;Agilist+%2B+Technical+Builder;Multi-machine+sync+architect;Creator+of+Cortex+%26+claude-sync" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
-Scrum Master who codes on the side. If something's broken or tedious, I'll probably write a script for it.
+Scrum Master by day, tooling builder by night. I automate what's broken, sync what's scattered, and script what's tedious.
 </p>
 
 <p align="center">
@@ -15,29 +15,76 @@ Scrum Master who codes on the side. If something's broken or tedious, I'll proba
 
 ---
 
+## The Ecosystem
+
+All my machines share one Claude Code brain. Settings, memory, skills, and configs flow through a single Git repo and sync automatically.
+
+```mermaid
+graph LR
+    subgraph Machines
+        D["Dell G15<br/>Windows 11"]
+        M["MacBook Air<br/>Arch + Hyprland"]
+        S["Samsung Laptop<br/>Arch + Hyprland"]
+    end
+
+    subgraph "claude-cross-machine-sync"
+        U["universal/<br/>skills, agents, commands,<br/>memory, MCP servers"]
+        P["platform/<br/>linux / windows"]
+        MR["machines/<br/>per-host configs"]
+    end
+
+    subgraph "Claude Code"
+        CC["Settings + Hooks"]
+        SK["Skills + Agents"]
+        ME["Memory (3-layer merge)"]
+        MC["MCP Servers"]
+    end
+
+    D -- git pull --> U
+    M -- git pull --> U
+    S -- git pull --> U
+    U --> CC
+    U --> SK
+    U --> ME
+    U --> MC
+    P --> CC
+    MR --> ME
+
+    style U fill:#1a1b27,stroke:#70a5fd,color:#c0caf5
+    style P fill:#1a1b27,stroke:#9ece6a,color:#c0caf5
+    style MR fill:#1a1b27,stroke:#e0af68,color:#c0caf5
+    style CC fill:#24283b,stroke:#7aa2f7,color:#c0caf5
+    style SK fill:#24283b,stroke:#7aa2f7,color:#c0caf5
+    style ME fill:#24283b,stroke:#7aa2f7,color:#c0caf5
+    style MC fill:#24283b,stroke:#7aa2f7,color:#c0caf5
+```
+
+---
+
 ## Featured Projects
 
 <table>
 <tr>
 <td width="50%">
 
-### <img src="assets/cortex-logo.svg" height="32" align="center"/> [Cortex](https://github.com/robertogogoni/cortex-claude)
+### <img src="assets/claude-sync-logo.svg" height="32" align="center"/> [claude-cross-machine-sync](https://github.com/robertogogoni/claude-cross-machine-sync)
 
-**Claude's Cognitive Layer** - Dual-model memory system with auto-extraction, vector search, and MCP tools for deep reasoning.
+**Cross-Machine Claude Sync** -- Sync Claude Code settings, memory, skills, agents, and configs across Windows and Linux machines with auto-categorization, background daemons, and a bootstrap installer.
 
-[![Tests](https://img.shields.io/badge/tests-447%2F447-brightgreen)](https://github.com/robertogogoni/cortex-claude)
-[![MCP](https://img.shields.io/badge/MCP-6%20tools-purple)](https://github.com/robertogogoni/cortex-claude)
-[![Vector](https://img.shields.io/badge/vector-HNSW%20%2B%20BM25-orange)](https://github.com/robertogogoni/cortex-claude)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-blue)](https://github.com/robertogogoni/claude-cross-machine-sync)
+[![Sync](https://img.shields.io/badge/sync-auto--daemon-green)](https://github.com/robertogogoni/claude-cross-machine-sync)
+[![Bootstrap](https://img.shields.io/badge/bootstrap-one--command-orange)](https://github.com/robertogogoni/claude-cross-machine-sync)
 
 </td>
 <td width="50%">
 
-### <img src="assets/claude-sync-logo.svg" height="32" align="center"/> [claude-cross-machine-sync](https://github.com/robertogogoni/claude-cross-machine-sync)
+### <img src="assets/cortex-logo.svg" height="32" align="center"/> [Cortex](https://github.com/robertogogoni/cortex-claude)
 
-**Cross-Machine Claude Sync** - Cross-machine sync for Claude Code settings, memory, and configurations with auto-categorization and background daemons.
+**Claude's Cognitive Layer** -- Dual-model memory system with auto-extraction, vector search, and MCP tools for deep reasoning.
 
-[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-blue)](https://github.com/robertogogoni/claude-cross-machine-sync)
-[![Sync](https://img.shields.io/badge/sync-auto--daemon-green)](https://github.com/robertogogoni/claude-cross-machine-sync)
+[![Tests](https://img.shields.io/badge/tests-447%2F447-brightgreen)](https://github.com/robertogogoni/cortex-claude)
+[![MCP](https://img.shields.io/badge/MCP-6%20tools-purple)](https://github.com/robertogogoni/cortex-claude)
+[![Vector](https://img.shields.io/badge/vector-HNSW%20%2B%20BM25-orange)](https://github.com/robertogogoni/cortex-claude)
 
 </td>
 </tr>
@@ -46,7 +93,7 @@ Scrum Master who codes on the side. If something's broken or tedious, I'll proba
 
 ### [omarchy-ai-usage](https://github.com/rodrigo-sntg/omarchy-ai-usage)
 
-**Real-time AI usage monitoring for Waybar** — Track Claude, Codex, Gemini & Antigravity rate limits, session tokens, and daily costs directly from your status bar. Features stale cache fallback, ccusage integration, per-model cost breakdown, and an interactive TUI dashboard.
+**Real-time AI usage monitoring for Waybar** -- Track Claude, Codex, Gemini & Antigravity rate limits, session tokens, and daily costs directly from your status bar. Features stale cache fallback, ccusage integration, per-model cost breakdown, and an interactive TUI dashboard.
 
 [![AUR](https://img.shields.io/aur/version/omarchy-ai-usage-git?color=1793D1&logo=archlinux&logoColor=white&label=AUR)](https://aur.archlinux.org/packages/omarchy-ai-usage-git)
 [![Tests](https://img.shields.io/badge/tests-70%20passing-brightgreen)](https://github.com/rodrigo-sntg/omarchy-ai-usage)
@@ -67,7 +114,7 @@ Scrum Master who codes on the side. If something's broken or tedious, I'll proba
 
 ### <img src="assets/beeper-intel-logo.svg" height="32" align="center"/> [beeper-intel](https://github.com/robertogogoni/beeper-intel)
 
-Intelligence dashboard for the Beeper ecosystem — 160+ repos tracked, 13k+ messages analyzed, API timelines, documentation gaps, and strategic signals.
+Intelligence dashboard for the Beeper ecosystem -- 160+ repos tracked, 13k+ messages analyzed, API timelines, documentation gaps, and strategic signals.
 
 [![Sources](https://img.shields.io/badge/sources-4-7aa2f7)](https://github.com/robertogogoni/beeper-intel)
 [![Repos](https://img.shields.io/badge/repos_tracked-160+-9ece6a)](https://github.com/robertogogoni/beeper-intel)
@@ -105,7 +152,7 @@ Self-healing Beeper Desktop updater for Arch Linux with progressive API resoluti
 
 ### [wayland-cedilla-fix](https://github.com/robertogogoni/wayland-cedilla-fix)
 
-Fix cedilla (ç) on US International keyboard for Wayland compositors. 3-layer approach: compositor + fcitx5/XCompose + browser IME flags.
+Fix cedilla (c-cedilla) on US International keyboard for Wayland compositors. 3-layer approach: compositor + fcitx5/XCompose + browser IME flags.
 
 [![AUR](https://img.shields.io/aur/version/wayland-cedilla-fix?color=1793D1)](https://aur.archlinux.org/packages/wayland-cedilla-fix)
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/robertogogoni/wayland-cedilla-fix/blob/main/LICENSE)
