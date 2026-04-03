@@ -72,8 +72,8 @@ Intelligence dashboard for the Beeper ecosystem -- 160+ repos tracked, 13k+ mess
 
 [![Sources](https://img.shields.io/badge/sources-4-7aa2f7)](https://github.com/robertogogoni/beeper-intel)
 [![Repos](https://img.shields.io/badge/repos_tracked-160+-9ece6a)](https://github.com/robertogogoni/beeper-intel)
-[![Gaps](https://img.shields.io/badge/doc_gaps-11-e0af68)](https://github.com/robertogogoni/beeper-intel/blob/main/reports/documentation-gaps.md)
-[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/robertogogoni/beeper-intel/blob/main/LICENSE)
+[![Gaps](https://img.shields.io/badge/doc_gaps-11-e0af68)](https://github.com/robertogogoni/beeper-intel/blob/master/reports/documentation-gaps.md)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/robertogogoni/beeper-intel/blob/master/LICENSE)
 
 </td>
 <td width="50%">
@@ -85,7 +85,7 @@ Curated list of Beeper resources, tools, and community projects. 30+ tools, brid
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Last Commit](https://img.shields.io/github/last-commit/robertogogoni/awesome-beeper)](https://github.com/robertogogoni/awesome-beeper/commits)
 [![Stars](https://img.shields.io/github/stars/robertogogoni/awesome-beeper?style=flat&color=yellow)](https://github.com/robertogogoni/awesome-beeper/stargazers)
-[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/robertogogoni/awesome-beeper/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/robertogogoni/awesome-beeper/blob/master/LICENSE)
 
 </td>
 </tr>
