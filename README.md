@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/robertogogoni">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&random=false&width=600&lines=Hi%2C+I'm+Roberto;Agilist+%2B+Technical+Builder;Multi-machine+sync+architect;Creator+of+Cortex+%26+claude-sync" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&random=false&width=600&lines=Hi%2C+I'm+Roberto;Agilist+%2B+Technical+Builder;Multi-machine+sync+architect;Creator+of+AIFuel+%26+Cortex" alt="Typing SVG" />
   </a>
 </p>
 
@@ -21,13 +21,14 @@ Scrum Master by day, tooling builder by night. I automate what's broken, sync wh
 <tr>
 <td width="50%">
 
-### <img src="assets/claude-sync-logo.svg" height="32" align="center"/> [claude-cross-machine-sync](https://github.com/robertogogoni/claude-cross-machine-sync)
+### [aifuel](https://github.com/robertogogoni/aifuel)
 
-**Cross-Machine Claude Sync** -- Sync Claude Code settings, memory, skills, agents, and configs across Windows and Linux machines with auto-categorization, background daemons, and a bootstrap installer.
+**Real-time AI usage monitor for waybar** -- Go CLI with Chrome extension popup, bubbletea TUI dashboard, Admin API cost reports, and Claude Code statusLine integration. Tracks Claude, Codex, Gemini, Copilot, and more via a 5-phase data cascade that never loses signal. Catppuccin themed.
 
-[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-blue)](https://github.com/robertogogoni/claude-cross-machine-sync)
-[![Sync](https://img.shields.io/badge/sync-auto--daemon-green)](https://github.com/robertogogoni/claude-cross-machine-sync)
-[![Bootstrap](https://img.shields.io/badge/bootstrap-one--command-orange)](https://github.com/robertogogoni/claude-cross-machine-sync)
+[![Release](https://img.shields.io/github/v/release/robertogogoni/aifuel?style=flat&color=a6e3a1&label=release)](https://github.com/robertogogoni/aifuel/releases)
+[![Go](https://img.shields.io/badge/go-1.24+-00ADD8?style=flat&logo=go&logoColor=white)](https://github.com/robertogogoni/aifuel)
+[![Providers](https://img.shields.io/badge/providers-6+-purple)](https://github.com/robertogogoni/aifuel)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/robertogogoni/aifuel/blob/master/LICENSE)
 
 </td>
 <td width="50%">
@@ -45,14 +46,13 @@ Scrum Master by day, tooling builder by night. I automate what's broken, sync wh
 <tr>
 <td colspan="2">
 
-### [omarchy-ai-usage](https://github.com/rodrigo-sntg/omarchy-ai-usage)
+### <img src="assets/claude-sync-logo.svg" height="32" align="center"/> [claude-cross-machine-sync](https://github.com/robertogogoni/claude-cross-machine-sync)
 
-**Real-time AI usage monitoring for Waybar** -- Track Claude, Codex, Gemini & Antigravity rate limits, session tokens, and daily costs directly from your status bar. Features stale cache fallback, ccusage integration, per-model cost breakdown, and an interactive TUI dashboard.
+**Cross-Machine Claude Sync** -- Sync Claude Code settings, memory, skills, agents, and configs across Windows and Linux machines with auto-categorization, background daemons, and a bootstrap installer.
 
-[![AUR](https://img.shields.io/aur/version/omarchy-ai-usage-git?color=1793D1&logo=archlinux&logoColor=white&label=AUR)](https://aur.archlinux.org/packages/omarchy-ai-usage-git)
-[![Tests](https://img.shields.io/badge/tests-70%20passing-brightgreen)](https://github.com/rodrigo-sntg/omarchy-ai-usage)
-[![Providers](https://img.shields.io/badge/providers-4-purple)](https://github.com/rodrigo-sntg/omarchy-ai-usage)
-[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/rodrigo-sntg/omarchy-ai-usage/blob/master/LICENSE)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-blue)](https://github.com/robertogogoni/claude-cross-machine-sync)
+[![Sync](https://img.shields.io/badge/sync-auto--daemon-green)](https://github.com/robertogogoni/claude-cross-machine-sync)
+[![Bootstrap](https://img.shields.io/badge/bootstrap-one--command-orange)](https://github.com/robertogogoni/claude-cross-machine-sync)
 
 </td>
 </tr>
@@ -120,6 +120,7 @@ Fix cedilla (c-cedilla) on US International keyboard for Wayland compositors. 3-
 ## Tech Stack
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
