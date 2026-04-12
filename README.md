@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/robertogogoni">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&random=false&width=600&lines=Hi%2C+I'm+Roberto;Agilist+%2B+Technical+Builder;Multi-machine+sync+architect;Creator+of+AIFuel+%26+Cortex+OS" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=7aa2f7&center=true&vCenter=true&random=false&width=600&lines=Hi%2C+I'm+Roberto;Agilist+%2B+Technical+Builder;Multi-machine+sync+architect;Creator+of+AIFuel+%26+Cortex+OS" alt="Typing SVG" />
   </a>
 </p>
 
@@ -9,7 +9,7 @@ Scrum Master by day, tooling builder by night. I automate what's broken, sync wh
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/robertogogoni"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://linkedin.com/in/robertogogoni"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://x.com/ragogoni"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
 </p>
 
@@ -25,10 +25,10 @@ Scrum Master by day, tooling builder by night. I automate what's broken, sync wh
 
 **Real-time AI usage monitor for waybar** -- Go CLI with Chrome extension popup, bubbletea TUI dashboard, Admin API cost reports, and Claude Code statusLine integration. Outputs precise data cascades.
 
-[![Release](https://img.shields.io/github/v/release/robertogogoni/aifuel?style=for-the-badge&color=000000&logo=git&logoColor=white)](https://github.com/robertogogoni/aifuel/releases)
-[![Go](https://img.shields.io/badge/Go-1.24+-000000?style=for-the-badge&logo=go&logoColor=white)](https://github.com/robertogogoni/aifuel)
-[![Providers](https://img.shields.io/badge/Providers-6+-000000?style=for-the-badge&logo=anthropic&logoColor=white)](https://github.com/robertogogoni/aifuel)
-[![License](https://img.shields.io/badge/License-MIT-000000?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/robertogogoni/aifuel/blob/master/LICENSE)
+[![Release](https://img.shields.io/github/v/release/robertogogoni/aifuel?style=for-the-badge&color=7aa2f7&logo=git&logoColor=white)](https://github.com/robertogogoni/aifuel/releases)
+[![Go](https://img.shields.io/badge/Go-1.24+-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://github.com/robertogogoni/aifuel)
+[![Providers](https://img.shields.io/badge/Providers-6+-bb9af7?style=for-the-badge&logo=anthropic&logoColor=white)](https://github.com/robertogogoni/aifuel)
+[![License](https://img.shields.io/badge/License-MIT-9ece6a?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/robertogogoni/aifuel/blob/master/LICENSE)
 
 </td>
 <td width="50%">
@@ -37,9 +37,9 @@ Scrum Master by day, tooling builder by night. I automate what's broken, sync wh
 
 **The Biological AI Memory Engine** - Persistent cognitive neural graph for Claude utilizing Anthropic inference, Obsidian topologies, and TUI architecture.
 
-[![Tests](https://img.shields.io/badge/Tests-447_Passing-000000?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/robertogogoni/cortex-claude)
-[![Engine](https://img.shields.io/badge/Engine-Anthropic-000000?style=for-the-badge&logo=anthropic&logoColor=white)](https://github.com/robertogogoni/cortex-claude)
-[![Graph](https://img.shields.io/badge/Graph-Obsidian-000000?style=for-the-badge&logo=obsidian&logoColor=white)](https://github.com/robertogogoni/cortex-claude)
+[![Tests](https://img.shields.io/badge/Tests-447_Passing-9ece6a?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/robertogogoni/cortex-claude)
+[![Engine](https://img.shields.io/badge/Engine-Anthropic-bb9af7?style=for-the-badge&logo=anthropic&logoColor=white)](https://github.com/robertogogoni/cortex-claude)
+[![Graph](https://img.shields.io/badge/Graph-Obsidian-bb9af7?style=for-the-badge&logo=obsidian&logoColor=white)](https://github.com/robertogogoni/cortex-claude)
 
 </td>
 </tr>
@@ -50,9 +50,9 @@ Scrum Master by day, tooling builder by night. I automate what's broken, sync wh
 
 **Cross-Machine Engine Sync** - Sync Claude Code settings, memory, skills, agents, and configs across Windows and Linux machines with auto-categorization.
 
-[![Platform](https://img.shields.io/badge/Platform-Windows_|_Linux-000000?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/robertogogoni/claude-cross-machine-sync)
-[![Sync](https://img.shields.io/badge/Daemon-Auto_Sync-000000?style=for-the-badge&logo=git&logoColor=white)](https://github.com/robertogogoni/claude-cross-machine-sync)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-One_Command-000000?style=for-the-badge&logo=gnubash&logoColor=white)](https://github.com/robertogogoni/claude-cross-machine-sync)
+[![Platform](https://img.shields.io/badge/Platform-Windows_|_Linux-7aa2f7?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/robertogogoni/claude-cross-machine-sync)
+[![Sync](https://img.shields.io/badge/Daemon-Auto_Sync-9ece6a?style=for-the-badge&logo=git&logoColor=white)](https://github.com/robertogogoni/claude-cross-machine-sync)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-One_Command-e0af68?style=for-the-badge&logo=gnubash&logoColor=white)](https://github.com/robertogogoni/claude-cross-machine-sync)
 
 </td>
 </tr>
@@ -70,8 +70,8 @@ Scrum Master by day, tooling builder by night. I automate what's broken, sync wh
 
 Intelligence dashboard for the Beeper ecosystem — 160+ repos tracked, 13k+ messages analyzed, API timelines, documentation gaps, and strategic signals.
 
-[![Repos](https://img.shields.io/badge/Repos_Tracked-160+-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/robertogogoni/beeper-intel)
-[![Gaps](https://img.shields.io/badge/Doc_Gaps-11-000000?style=for-the-badge&logo=markdown&logoColor=white)](https://github.com/robertogogoni/beeper-intel/blob/master/reports/documentation-gaps.md)
+[![Repos](https://img.shields.io/badge/Repos_Tracked-160+-9ece6a?style=for-the-badge&logo=github&logoColor=white)](https://github.com/robertogogoni/beeper-intel)
+[![Gaps](https://img.shields.io/badge/Doc_Gaps-11-e0af68?style=for-the-badge&logo=markdown&logoColor=white)](https://github.com/robertogogoni/beeper-intel/blob/master/reports/documentation-gaps.md)
 
 </td>
 <td width="50%">
@@ -80,8 +80,8 @@ Intelligence dashboard for the Beeper ecosystem — 160+ repos tracked, 13k+ mes
 
 Curated list of Beeper resources, tools, and community projects. 30+ tools, bridges, themes, and robust active MCP servers catalogued.
 
-[![Awesome](https://img.shields.io/badge/Awesome-Verified-000000?style=for-the-badge&logo=awesomelists&logoColor=white)](https://awesome.re)
-[![Stars](https://img.shields.io/github/stars/robertogogoni/awesome-beeper?style=for-the-badge&color=000000&logo=github&logoColor=white)](https://github.com/robertogogoni/awesome-beeper/stargazers)
+[![Awesome](https://img.shields.io/badge/Awesome-Verified-e0af68?style=for-the-badge&logo=awesomelists&logoColor=white)](https://awesome.re)
+[![Stars](https://img.shields.io/github/stars/robertogogoni/awesome-beeper?style=for-the-badge&color=e0af68&logo=github&logoColor=white)](https://github.com/robertogogoni/awesome-beeper/stargazers)
 
 </td>
 </tr>
@@ -92,8 +92,8 @@ Curated list of Beeper resources, tools, and community projects. 30+ tools, brid
 
 Self-healing Beeper Desktop updater for Arch Linux with progressive API resolution, SHA256 verification, automatic rollback, and native Wayland integration.
 
-[![Release](https://img.shields.io/github/v/release/beeper-community/update-beeper?style=for-the-badge&color=000000&logo=git&logoColor=white)](https://github.com/beeper-community/update-beeper/releases/latest)
-[![License](https://img.shields.io/badge/License-MIT-000000?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/beeper-community/update-beeper/blob/master/LICENSE)
+[![Release](https://img.shields.io/github/v/release/beeper-community/update-beeper?style=for-the-badge&color=7aa2f7&logo=git&logoColor=white)](https://github.com/beeper-community/update-beeper/releases/latest)
+[![License](https://img.shields.io/badge/License-MIT-9ece6a?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/beeper-community/update-beeper/blob/master/LICENSE)
 
 </td>
 <td width="50%">
@@ -102,8 +102,8 @@ Self-healing Beeper Desktop updater for Arch Linux with progressive API resoluti
 
 Fix cedilla (c-cedilla) on US International keyboard for Wayland compositors. 3-layer approach: compositor + fcitx5/XCompose + browser IME flags.
 
-[![AUR](https://img.shields.io/aur/version/wayland-cedilla-fix?style=for-the-badge&color=000000&logo=archlinux&logoColor=white)](https://aur.archlinux.org/packages/wayland-cedilla-fix)
-[![License](https://img.shields.io/badge/License-MIT-000000?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/robertogogoni/wayland-cedilla-fix/blob/main/LICENSE)
+[![AUR](https://img.shields.io/aur/version/wayland-cedilla-fix?style=for-the-badge&color=1793d1&logo=archlinux&logoColor=white)](https://aur.archlinux.org/packages/wayland-cedilla-fix)
+[![License](https://img.shields.io/badge/License-MIT-9ece6a?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://github.com/robertogogoni/wayland-cedilla-fix/blob/main/LICENSE)
 
 
 </td>
@@ -115,19 +115,19 @@ Fix cedilla (c-cedilla) on US International keyboard for Wayland compositors. 3-
 ## Tech Stack
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Go-000000?style=for-the-badge&logo=go&logoColor=white" alt="Go"/>
-  <img src="https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/Bash-000000?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash"/>
-  <img src="https://img.shields.io/badge/PowerShell-000000?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell"/>
-  <img src="https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/SQLite-000000?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite"/>
-  <img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=white" alt="Linux"/>
-  <img src="https://img.shields.io/badge/Arch-000000?style=for-the-badge&logo=archlinux&logoColor=white" alt="Arch"/>
-  <img src="https://img.shields.io/badge/Hyprland-000000?style=for-the-badge&logo=hyprland&logoColor=white" alt="Hyprland"/>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash"/>
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
+  <img src="https://img.shields.io/badge/Arch-1793D1?style=flat-square&logo=archlinux&logoColor=white" alt="Arch"/>
+  <img src="https://img.shields.io/badge/Hyprland-58E1FF?style=flat-square&logo=hyprland&logoColor=black" alt="Hyprland"/>
 </p>
 
 ---
@@ -173,5 +173,5 @@ Fix cedilla (c-cedilla) on US International keyboard for Wayland compositors. 3-
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=robertogogoni&style=for-the-badge&color=000000&label=views" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=robertogogoni&style=for-the-badge&color=7aa2f7&label=views" alt="Profile Views"/>
 </p>
