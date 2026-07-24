@@ -28,18 +28,30 @@ you paste your key locally, on-device, after importing.
 
 ## How to import
 
-1. Open **Gboard settings → (the Top-Row-Swipe / Swipeable Custom Top Row
-   section added by the patch)**.
-2. Choose **Import** and pick one of the `*.slots.json` files.
+Verified against build **Patch Version 2.0.0-dev.4** (Gboard Patches 1.14.0 /
+Morphe Patches 1.35.0), package `dev.jason.com.google.android.inputmethod.latin`.
+
+1. Open the patched Gboard's **Patch settings → Features → Keyboard → Custom
+   Top Row**.
+2. Under **TRANSFER**, tap **Import settings** and pick one of the
+   `*.slots.json` files. This replaces Global JavaScript, runtime limits, and
+   **all 10 slots** at once. (**Reset slots** under ADVANCED restores the default
+   emoji row.)
 3. For `04-ai-writing-tools`, open **Global JavaScript** and replace
    `PUT_YOUR_OPENAI_API_KEY_HERE` with your real key (and change `OPENAI_MODEL`
    if you like).
-4. On the keyboard, **swipe the top row** left/right to reach a slot and swipe
-   down (or tap, per your patch build) to fire it. For transform/AI slots,
-   **select the target text first** — it arrives in the script as `input`.
+4. On the keyboard, **swipe the top row horizontally** to switch from the stock
+   row to your custom row, then **tap a slot** to fire it — each tap starts a
+   fresh QuickJS runtime. For transform/AI slots, **select the target text
+   first**; it arrives in the script as `input`.
 
 Each file replaces all 10 slots at once, so import the set that fits the
 context. You can also mix-and-match by hand-editing a file before importing.
+
+> **Note on commits:** a slot only commits when its script returns a non-null
+> value, and the commit is **skipped if the input field changed during
+> execution**. For slow network/AI slots that's expected — don't tap away or
+> switch fields while it's working.
 
 ## File format reference
 
@@ -80,10 +92,15 @@ Confirmed against the patch source (`GboardTopRowSwipeSettings.java`,
   helper functions there), then the slot body runs as a function of `input`.
 - **`httpRequest({ method, url, headers, body })`** — performs an HTTP request
   and returns the **response body as a string**. Parse JSON yourself with
-  `JSON.parse(...)`. Used by the AI set.
-- **`httpGet(url)`** — convenience GET that returns the body string. The
-  `05-web-utilities` set wraps it in a `GET()` helper that falls back to
-  `httpRequest` if `httpGet` isn't present on your build.
+  `JSON.parse(...)`. Used by the AI set because it needs an `Authorization`
+  header.
+- **`httpGet(url)`** — convenience GET that returns the body string. Used by
+  `05-web-utilities` (wrapped in a `GET()` helper as a harmless fallback).
+- **`httpPost(url, body)`** — convenience POST that returns the body string, for
+  simple posts that don't need custom headers.
+
+The patch's own in-app **JavaScript Guide** lists the host extras as: `input`,
+`httpRequest(options)`, `httpGet(url)`, and `httpPost(url, body)`.
 - Standard ECMAScript is available: `JSON`, `Math`, `Date`, `String`/`Array`
   methods, `encodeURIComponent` / `decodeURIComponent`, regexes. Browser-only
   globals (`btoa`, `fetch`, `document`, `localStorage`) are **not** — that's why
