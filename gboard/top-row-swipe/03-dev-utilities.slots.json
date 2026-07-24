@@ -1,0 +1,23 @@
+{
+  "format": "gboardpatches.top-row-swipe.slots",
+  "version": 3,
+  "globalJavaScript": "// Developer helpers. base64 is implemented in pure JS so it works even\n// when the QuickJS build has no btoa/atob.\nvar B64 = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/\";\nfunction toUtf8Bytes(str){\n  var out = [];\n  for (var i = 0; i < str.length; i++){\n    var c = str.charCodeAt(i);\n    if (c < 0x80){ out.push(c); }\n    else if (c < 0x800){ out.push(0xc0 | (c >> 6), 0x80 | (c & 0x3f)); }\n    else if (c >= 0xd800 && c < 0xdc00){\n      var c2 = str.charCodeAt(++i);\n      var cp = 0x10000 + ((c & 0x3ff) << 10) + (c2 & 0x3ff);\n      out.push(0xf0 | (cp >> 18), 0x80 | ((cp >> 12) & 0x3f), 0x80 | ((cp >> 6) & 0x3f), 0x80 | (cp & 0x3f));\n    } else { out.push(0xe0 | (c >> 12), 0x80 | ((c >> 6) & 0x3f), 0x80 | (c & 0x3f)); }\n  }\n  return out;\n}\nfunction base64Encode(str){\n  var b = toUtf8Bytes(String(str || \"\")), out = \"\";\n  for (var i = 0; i < b.length; i += 3){\n    var b0 = b[i], b1 = b[i + 1], b2 = b[i + 2];\n    out += B64[b0 >> 2];\n    out += B64[((b0 & 3) << 4) | ((b1 || 0) >> 4)];\n    out += (i + 1 < b.length) ? B64[((b1 & 15) << 2) | ((b2 || 0) >> 6)] : \"=\";\n    out += (i + 2 < b.length) ? B64[b2 & 63] : \"=\";\n  }\n  return out;\n}\nfunction uuid4(){\n  return \"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx\".replace(/[xy]/g, function(c){\n    var r = (Math.random() * 16) | 0;\n    var v = c === \"x\" ? r : (r & 0x3) | 0x8;\n    return v.toString(16);\n  });\n}\nfunction slugify(s){\n  return String(s || \"\").toLowerCase().trim().replace(/[^a-z0-9]+/g, \"-\").replace(/^-+|-+$/g, \"\");\n}",
+  "javaScriptRuntimeLimits": {
+    "responseBodyLimitBytes": 1048576,
+    "timeoutMaxMs": 30000,
+    "memoryLimitBytes": 8388608,
+    "maxStackBytes": 524288
+  },
+  "slots": [
+    {"displayText": "{ }", "commitText": "", "isJavaScript": true, "scriptText": "try { return JSON.stringify(JSON.parse(input), null, 2); } catch (e) { return 'Invalid JSON: ' + e.message; }", "timeoutMs": 2000},
+    {"displayText": "}{", "commitText": "", "isJavaScript": true, "scriptText": "try { return JSON.stringify(JSON.parse(input)); } catch (e) { return 'Invalid JSON: ' + e.message; }", "timeoutMs": 2000},
+    {"displayText": "%url", "commitText": "", "isJavaScript": true, "scriptText": "return encodeURIComponent(String(input || ''));", "timeoutMs": 1500},
+    {"displayText": "url%", "commitText": "", "isJavaScript": true, "scriptText": "try { return decodeURIComponent(String(input || '')); } catch (e) { return 'Bad encoding'; }", "timeoutMs": 1500},
+    {"displayText": "b64", "commitText": "", "isJavaScript": true, "scriptText": "return base64Encode(input);", "timeoutMs": 1500},
+    {"displayText": "\\\"…\\\"", "commitText": "", "isJavaScript": true, "scriptText": "return JSON.stringify(String(input || ''));", "timeoutMs": 1500},
+    {"displayText": "slug", "commitText": "", "isJavaScript": true, "scriptText": "return slugify(input);", "timeoutMs": 1500},
+    {"displayText": "uuid", "commitText": "", "isJavaScript": true, "scriptText": "return uuid4();", "timeoutMs": 1500},
+    {"displayText": "unix", "commitText": "", "isJavaScript": true, "scriptText": "return String(Date.now());", "timeoutMs": 1500},
+    {"displayText": "ISO", "commitText": "", "isJavaScript": true, "scriptText": "return new Date().toISOString();", "timeoutMs": 1500}
+  ]
+}

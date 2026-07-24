@@ -1,0 +1,23 @@
+{
+  "format": "gboardpatches.top-row-swipe.slots",
+  "version": 3,
+  "globalJavaScript": "// Shared helpers available to every slot in this set.\nfunction titleCase(s){\n  return String(s || \"\").toLowerCase().replace(/\\b\\w/g, function(m){ return m.toUpperCase(); });\n}\nfunction cleanSpaces(s){\n  return String(s || \"\").replace(/\\s+/g, \" \").trim();\n}\nfunction today(){\n  var d = new Date();\n  var p = function(n){ return (n < 10 ? \"0\" : \"\") + n; };\n  return d.getFullYear() + \"-\" + p(d.getMonth() + 1) + \"-\" + p(d.getDate());\n}",
+  "javaScriptRuntimeLimits": {
+    "responseBodyLimitBytes": 1048576,
+    "timeoutMaxMs": 30000,
+    "memoryLimitBytes": 8388608,
+    "maxStackBytes": 524288
+  },
+  "slots": [
+    {"displayText": "—", "commitText": "—", "isJavaScript": false, "scriptText": "", "timeoutMs": 1000},
+    {"displayText": "…", "commitText": "…", "isJavaScript": false, "scriptText": "", "timeoutMs": 1000},
+    {"displayText": "→", "commitText": "→", "isJavaScript": false, "scriptText": "", "timeoutMs": 1000},
+    {"displayText": "✓", "commitText": "✓", "isJavaScript": false, "scriptText": "", "timeoutMs": 1000},
+    {"displayText": "AA", "commitText": "", "isJavaScript": true, "scriptText": "return String(input || '').toUpperCase();", "timeoutMs": 1500},
+    {"displayText": "aa", "commitText": "", "isJavaScript": true, "scriptText": "return String(input || '').toLowerCase();", "timeoutMs": 1500},
+    {"displayText": "Aa", "commitText": "", "isJavaScript": true, "scriptText": "return titleCase(input);", "timeoutMs": 1500},
+    {"displayText": "␣", "commitText": "", "isJavaScript": true, "scriptText": "return cleanSpaces(input);", "timeoutMs": 1500},
+    {"displayText": "↔", "commitText": "", "isJavaScript": true, "scriptText": "return String(input || '').split('').reverse().join('');", "timeoutMs": 1500},
+    {"displayText": "📅", "commitText": "", "isJavaScript": true, "scriptText": "return today();", "timeoutMs": 1500}
+  ]
+}

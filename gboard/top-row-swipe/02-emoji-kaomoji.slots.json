@@ -1,0 +1,23 @@
+{
+  "format": "gboardpatches.top-row-swipe.slots",
+  "version": 3,
+  "globalJavaScript": "",
+  "javaScriptRuntimeLimits": {
+    "responseBodyLimitBytes": 1048576,
+    "timeoutMaxMs": 30000,
+    "memoryLimitBytes": 8388608,
+    "maxStackBytes": 524288
+  },
+  "slots": [
+    {"displayText": "┻━┻", "commitText": "(╯°□°)╯︵ ┻━┻", "isJavaScript": false, "scriptText": "", "timeoutMs": 1000},
+    {"displayText": "┬─┬", "commitText": "┬─┬ノ( º _ ºノ)", "isJavaScript": false, "scriptText": "", "timeoutMs": 1000},
+    {"displayText": "¯\\_(ツ)", "commitText": "¯\\_(ツ)_/¯", "isJavaScript": false, "scriptText": "", "timeoutMs": 1000},
+    {"displayText": "☞", "commitText": "(☞ﾟヮﾟ)☞", "isJavaScript": false, "scriptText": "", "timeoutMs": 1000},
+    {"displayText": "ヽ(°〇°)ﾉ", "commitText": "ヽ(°〇°)ﾉ", "isJavaScript": false, "scriptText": "", "timeoutMs": 1000},
+    {"displayText": "(ᵔᴥᵔ)", "commitText": "(ᵔᴥᵔ)", "isJavaScript": false, "scriptText": "", "timeoutMs": 1000},
+    {"displayText": "★", "commitText": "★", "isJavaScript": false, "scriptText": "", "timeoutMs": 1000},
+    {"displayText": "♥", "commitText": "♥", "isJavaScript": false, "scriptText": "", "timeoutMs": 1000},
+    {"displayText": "✗", "commitText": "✗", "isJavaScript": false, "scriptText": "", "timeoutMs": 1000},
+    {"displayText": "•", "commitText": "•", "isJavaScript": false, "scriptText": "", "timeoutMs": 1000}
+  ]
+}
