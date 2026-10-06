@@ -33,7 +33,7 @@ Scrum Master by day, tooling builder by night. I automate what's broken, sync wh
 
 **The Biological AI Memory Engine** - Persistent cognitive neural graph for Claude utilizing Anthropic inference, Obsidian topologies, and TUI architecture.
 
-[![Tests](https://img.shields.io/badge/Tests-447_Passing-9ece6a?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/robertogogoni/cortex-claude)
+[![Tests](https://img.shields.io/badge/Tests-CI_Workflow-7aa2f7?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/robertogogoni/cortex-claude/actions/workflows/ci.yml)
 [![Engine](https://img.shields.io/badge/Engine-Anthropic-bb9af7?style=flat-square&logo=anthropic&logoColor=white)](https://github.com/robertogogoni/cortex-claude)
 [![Graph](https://img.shields.io/badge/Graph-Obsidian-bb9af7?style=flat-square&logo=obsidian&logoColor=white)](https://github.com/robertogogoni/cortex-claude)
 
@@ -44,9 +44,9 @@ Scrum Master by day, tooling builder by night. I automate what's broken, sync wh
 
 ### <img src="assets/claude-sync-logo.svg" height="28" align="center"/> [claude-cross-machine-sync](https://github.com/robertogogoni/claude-cross-machine-sync)
 
-**Cross-Machine Engine Sync** - Sync Claude Code settings, memory, skills, agents, and configs across Windows and Linux machines with auto-categorization.
+**Cross-Machine Engine Sync** - Sync Claude Code settings, memory, skills, agents, and configs across Linux, macOS, and Windows with platform-aware categorization.
 
-[![Platform](https://img.shields.io/badge/Platform-Windows_|_Linux-7aa2f7?style=flat-square&logo=linux&logoColor=white)](https://github.com/robertogogoni/claude-cross-machine-sync)
+[![Platform](https://img.shields.io/badge/Platform-Linux_macOS_Windows-7aa2f7?style=flat-square&logo=linux&logoColor=white)](https://github.com/robertogogoni/claude-cross-machine-sync)
 [![Sync](https://img.shields.io/badge/Daemon-Auto_Sync-9ece6a?style=flat-square&logo=git&logoColor=white)](https://github.com/robertogogoni/claude-cross-machine-sync)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-One_Command-e0af68?style=flat-square&logo=gnubash&logoColor=white)](https://github.com/robertogogoni/claude-cross-machine-sync)
 
@@ -66,8 +66,8 @@ Scrum Master by day, tooling builder by night. I automate what's broken, sync wh
 
 Intelligence dashboard for the Beeper ecosystem — 160+ repos tracked, 13k+ messages analyzed, API timelines, documentation gaps, and strategic signals.
 
-[![Repos](https://img.shields.io/badge/Repos_Tracked-160+-9ece6a?style=flat-square&logo=github&logoColor=white)](https://github.com/robertogogoni/beeper-intel)
-[![Gaps](https://img.shields.io/badge/Doc_Gaps-11-e0af68?style=flat-square&logo=markdown&logoColor=white)](https://github.com/robertogogoni/beeper-intel/blob/master/reports/documentation-gaps.md)
+[![Repos](https://img.shields.io/badge/Published_Repo_Snapshot-160+-9ece6a?style=flat-square&logo=github&logoColor=white)](https://github.com/robertogogoni/beeper-intel)
+[![Gaps](https://img.shields.io/badge/Reported_Doc_Gaps-11-e0af68?style=flat-square&logo=markdown&logoColor=white)](https://github.com/robertogogoni/beeper-intel/blob/master/reports/documentation-gaps.md)
 [![License](https://img.shields.io/badge/License-MIT-9ece6a?style=flat-square&logo=opensourceinitiative&logoColor=white)](https://github.com/robertogogoni/beeper-intel/blob/master/LICENSE)
 
 </td>
@@ -75,11 +75,11 @@ Intelligence dashboard for the Beeper ecosystem — 160+ repos tracked, 13k+ mes
 
 ### <img src="assets/awesome-beeper-logo.svg" height="28" align="center"/> [awesome-beeper](https://github.com/robertogogoni/awesome-beeper)
 
-Curated list of Beeper resources, tools, and community projects. 30+ tools, bridges, themes, and robust active MCP servers catalogued.
+Curated Beeper resources, tools, bridges, themes, and MCP servers, with official and community entries.
 
-[![Awesome](https://img.shields.io/badge/Awesome-Verified-e0af68?style=flat-square&logo=awesomelists&logoColor=white)](https://awesome.re)
+[![Awesome](https://img.shields.io/badge/Awesome-Curated-e0af68?style=flat-square&logo=awesomelists&logoColor=white)](https://awesome.re)
 [![Stars](https://img.shields.io/github/stars/robertogogoni/awesome-beeper?style=flat-square&color=e0af68&logo=github&logoColor=white)](https://github.com/robertogogoni/awesome-beeper/stargazers)
-[![License](https://img.shields.io/badge/License-MIT-9ece6a?style=flat-square&logo=opensourceinitiative&logoColor=white)](https://github.com/robertogogoni/awesome-beeper/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-9ece6a?style=flat-square&logo=opensourceinitiative&logoColor=white)](https://github.com/robertogogoni/awesome-beeper/blob/master/LICENSE)
 
 </td>
 </tr>
@@ -135,8 +135,8 @@ Fix cedilla (c-cedilla) on US International keyboard for Wayland compositors. 3-
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-zeta-blush-29.vercel.app/api?username=robertogogoni&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&show=reviews,prs_merged,prs_merged_percentage" alt="GitHub Stats" height="180"/>
-  <img src="https://raw.githubusercontent.com/robertogogoni/robertogogoni/main/metrics-languages.svg" alt="Languages" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=robertogogoni&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=robertogogoni&layout=compact&theme=tokyonight&hide_border=true" alt="Languages" height="180"/>
 </p>
 
 <p align="center">
@@ -153,20 +153,6 @@ Fix cedilla (c-cedilla) on US International keyboard for Wayland compositors. 3-
     <img src="https://github-trophies.vercel.app/?username=robertogogoni&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies"/>
   </a>
 </p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/robertogogoni/robertogogoni/main/metrics-isocalendar.svg" alt="Isometric Calendar"/>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/robertogogoni/robertogogoni/main/metrics-habits.svg" alt="Coding Habits" height="250"/>
-</p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/robertogogoni/robertogogoni/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/robertogogoni/robertogogoni/output/github-snake.svg">
-  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/robertogogoni/robertogogoni/output/github-snake.svg">
-</picture>
 
 </details>
 
