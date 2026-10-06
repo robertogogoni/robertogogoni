@@ -88,9 +88,10 @@ Curated list of Beeper resources, tools, and community projects. 30+ tools, brid
 
 ### <img src="assets/update-beeper-logo.svg" height="28" align="center"/> [update-beeper](https://github.com/beeper-community/update-beeper)
 
-Self-healing Beeper Desktop updater for Arch Linux with progressive API resolution, SHA256 verification, automatic rollback, and native Wayland integration.
+Terminal-first Beeper Desktop updater for Arch Linux with stable and nightly channels, guided updates and recovery, first-use SHA256 checks, automatic rollback, native Wayland integration, and a daily systemd user timer.
 
-[![Release](https://img.shields.io/github/v/release/beeper-community/update-beeper?style=flat-square&color=7aa2f7&logo=git&logoColor=white)](https://github.com/beeper-community/update-beeper/releases/latest)
+[![Code](https://img.shields.io/badge/Code-v1.9.0_on_master-7aa2f7?style=flat-square&logo=git&logoColor=white)](https://github.com/beeper-community/update-beeper/tree/master)
+[![Terminal UI](https://img.shields.io/badge/UI-Interactive_Terminal-bb9af7?style=flat-square&logo=gnubash&logoColor=white)](https://github.com/beeper-community/update-beeper#terminal-options)
 [![Platform](https://img.shields.io/badge/Platform-Arch_Linux-1793d1?style=flat-square&logo=archlinux&logoColor=white)](https://github.com/beeper-community/update-beeper)
 [![License](https://img.shields.io/badge/License-MIT-9ece6a?style=flat-square&logo=opensourceinitiative&logoColor=white)](https://github.com/beeper-community/update-beeper/blob/master/LICENSE)
 
