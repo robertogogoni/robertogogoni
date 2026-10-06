@@ -135,9 +135,11 @@ Fix cedilla (c-cedilla) on US International keyboard for Wayland compositors. 3-
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=robertogogoni&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=robertogogoni&layout=compact&theme=tokyonight&hide_border=true" alt="Languages" height="180"/>
+  <img src="https://raw.githubusercontent.com/robertogogoni/robertogogoni/main/metrics.svg" alt="GitHub profile metrics" width="480"/>
+  <img src="https://raw.githubusercontent.com/robertogogoni/robertogogoni/main/metrics-languages.svg" alt="Most used languages" width="480"/>
 </p>
+
+<p align="center"><sub>Metrics generated locally each day. <a href="docs/local-metrics.md">How it works</a></sub></p>
 
 <p align="center">
   <img src="https://github-readme-streak-stats-eight.vercel.app?user=robertogogoni&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak"/>
@@ -147,6 +149,10 @@ Fix cedilla (c-cedilla) on US International keyboard for Wayland compositors. 3-
 <summary><b>More Stats</b></summary>
 
 <br>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/robertogogoni/robertogogoni/main/metrics-isocalendar.svg" alt="Isometric contribution calendar" width="480"/>
+</p>
 
 <p align="center">
   <a href="https://github.com/lucthienphong1120/github-trophies">

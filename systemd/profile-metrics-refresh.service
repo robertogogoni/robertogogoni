@@ -1,0 +1,11 @@
+[Unit]
+Description=Refresh GitHub profile metrics locally
+After=network-online.target
+Wants=network-online.target
+ConditionPathIsDirectory=%h/Work/robertogogoni
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 %h/Work/robertogogoni/scripts/refresh_metrics_local.py --publish
+TimeoutStartSec=90min
+Nice=10
