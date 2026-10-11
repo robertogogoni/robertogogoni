@@ -1,0 +1,23 @@
+{
+  "format": "gboardpatches.top-row-swipe.slots",
+  "version": 3,
+  "globalJavaScript": "// Live utilities using free, key-less public APIs plus a few offline tricks.\n// GET() prefers the built-in httpGet if present, otherwise falls back to\n// httpRequest so this set works on any build of the patch.\nfunction GET(url){\n  if (typeof httpGet === \"function\"){ return httpGet(url); }\n  return httpRequest({ method: \"GET\", url: url });\n}\nfunction jget(url){ return JSON.parse(GET(url)); }",
+  "javaScriptRuntimeLimits": {
+    "responseBodyLimitBytes": 1048576,
+    "timeoutMaxMs": 30000,
+    "memoryLimitBytes": 8388608,
+    "maxStackBytes": 524288
+  },
+  "slots": [
+    {"displayText": "🌐IP", "commitText": "", "isJavaScript": true, "scriptText": "try { return jget('https://api.ipify.org?format=json').ip; } catch (e) { return 'offline'; }", "timeoutMs": 15000},
+    {"displayText": "🌦️", "commitText": "", "isJavaScript": true, "scriptText": "try { var loc = String(input || '').trim(); return GET('https://wttr.in/' + encodeURIComponent(loc) + '?format=3').trim(); } catch (e) { return 'offline'; }", "timeoutMs": 15000},
+    {"displayText": "💱", "commitText": "", "isJavaScript": true, "scriptText": "try { var r = jget('https://open.er-api.com/v6/latest/USD').rates; return '1 USD = ' + r.EUR + ' EUR / ' + r.GBP + ' GBP'; } catch (e) { return 'offline'; }", "timeoutMs": 15000},
+    {"displayText": "📖", "commitText": "", "isJavaScript": true, "scriptText": "try { var w = String(input || '').trim(); if (!w) return 'select a word first'; var d = jget('https://api.dictionaryapi.dev/api/v2/entries/en/' + encodeURIComponent(w)); return w + ': ' + d[0].meanings[0].definitions[0].definition; } catch (e) { return 'no definition'; }", "timeoutMs": 15000},
+    {"displayText": "🐙", "commitText": "", "isJavaScript": true, "scriptText": "try { var u = String(input || '').trim(); if (!u) return 'select a username first'; var g = jget('https://api.github.com/users/' + encodeURIComponent(u)); return (g.name || u) + ' — ' + g.public_repos + ' repos, ' + g.followers + ' followers'; } catch (e) { return 'user not found'; }", "timeoutMs": 15000},
+    {"displayText": "🕐UTC", "commitText": "", "isJavaScript": true, "scriptText": "return new Date().toISOString().replace('T', ' ').slice(0, 19) + ' UTC';", "timeoutMs": 1500},
+    {"displayText": "🎲", "commitText": "", "isJavaScript": true, "scriptText": "return String(1 + Math.floor(Math.random() * 100));", "timeoutMs": 1000},
+    {"displayText": "🪙", "commitText": "", "isJavaScript": true, "scriptText": "return Math.random() < 0.5 ? 'Heads' : 'Tails';", "timeoutMs": 1000},
+    {"displayText": "#w", "commitText": "", "isJavaScript": true, "scriptText": "var t = String(input || '').trim(); return String(t ? t.split(/\\s+/).length : 0) + ' words';", "timeoutMs": 1000},
+    {"displayText": "#c", "commitText": "", "isJavaScript": true, "scriptText": "return String(String(input || '').length) + ' chars';", "timeoutMs": 1000}
+  ]
+}

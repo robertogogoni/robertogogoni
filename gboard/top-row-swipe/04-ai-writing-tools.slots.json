@@ -1,0 +1,23 @@
+{
+  "format": "gboardpatches.top-row-swipe.slots",
+  "version": 3,
+  "globalJavaScript": "// ==========================================================================\n// 1. Paste your OpenAI API key between the quotes below (replace the\n//    placeholder). Get one at https://platform.openai.com/api-keys\n// 2. Optionally change the model.\n// NOTE: the key lives only on your device inside Gboard's settings. Never\n//       share an exported copy of this file with the key filled in.\n// ==========================================================================\nvar OPENAI_API_KEY = \"PUT_YOUR_OPENAI_API_KEY_HERE\";\nvar OPENAI_MODEL   = \"gpt-5.5\";\n\nfunction ai(instruction, text){\n  if (!OPENAI_API_KEY || OPENAI_API_KEY === \"PUT_YOUR_OPENAI_API_KEY_HERE\"){\n    return \"\\u26A0\\uFE0F Set OPENAI_API_KEY in Global JavaScript first.\";\n  }\n  var src = String(text || \"\").trim();\n  var prompt = src ? (instruction + \":\\n\\n\" + src) : instruction;\n  var raw = httpRequest({\n    method: \"POST\",\n    url: \"https://api.openai.com/v1/responses\",\n    headers: {\n      \"Content-Type\": \"application/json\",\n      \"Authorization\": \"Bearer \" + OPENAI_API_KEY\n    },\n    body: JSON.stringify({ model: OPENAI_MODEL, input: prompt })\n  });\n  var res;\n  try { res = JSON.parse(raw); } catch (e) { return \"\\u26A0\\uFE0F Bad response from API.\"; }\n  if (res.error){ return \"\\u26A0\\uFE0F \" + res.error.message; }\n  if (res.output_text){ return res.output_text; }\n  var first = res.output && res.output[0];\n  var c = first && first.content && first.content[0];\n  return (c && c.text) ? c.text : \"\";\n}",
+  "javaScriptRuntimeLimits": {
+    "responseBodyLimitBytes": 1048576,
+    "timeoutMaxMs": 30000,
+    "memoryLimitBytes": 8388608,
+    "maxStackBytes": 524288
+  },
+  "slots": [
+    {"displayText": "✍️", "commitText": "", "isJavaScript": true, "scriptText": "return ai('Rewrite this text so it is clearer and reads well, keeping the original meaning and language. Return only the rewritten text', input);", "timeoutMs": 28000},
+    {"displayText": "🔧", "commitText": "", "isJavaScript": true, "scriptText": "return ai('Fix spelling, grammar and punctuation. Keep the wording and language as close to the original as possible. Return only the corrected text', input);", "timeoutMs": 28000},
+    {"displayText": "📝", "commitText": "", "isJavaScript": true, "scriptText": "return ai('Summarize this in one or two short sentences, in the same language. Return only the summary', input);", "timeoutMs": 28000},
+    {"displayText": "🇬🇧", "commitText": "", "isJavaScript": true, "scriptText": "return ai('Translate this into natural English. Return only the translation', input);", "timeoutMs": 28000},
+    {"displayText": "🇪🇸", "commitText": "", "isJavaScript": true, "scriptText": "return ai('Translate this into natural Spanish. Return only the translation', input);", "timeoutMs": 28000},
+    {"displayText": "🎩", "commitText": "", "isJavaScript": true, "scriptText": "return ai('Rewrite this in a formal, professional tone, same language. Return only the rewritten text', input);", "timeoutMs": 28000},
+    {"displayText": "✂️", "commitText": "", "isJavaScript": true, "scriptText": "return ai('Make this shorter and more concise without losing key meaning, same language. Return only the shortened text', input);", "timeoutMs": 28000},
+    {"displayText": "•≣", "commitText": "", "isJavaScript": true, "scriptText": "return ai('Turn this into a short bullet-point list. Return only the bullet list', input);", "timeoutMs": 28000},
+    {"displayText": "💬", "commitText": "", "isJavaScript": true, "scriptText": "return ai('Write a short, friendly reply to the following message. Return only the reply', input);", "timeoutMs": 28000},
+    {"displayText": "😀+", "commitText": "", "isJavaScript": true, "scriptText": "return ai('Add a few tasteful, relevant emoji to this text without changing the words much, same language. Return only the result', input);", "timeoutMs": 28000}
+  ]
+}
